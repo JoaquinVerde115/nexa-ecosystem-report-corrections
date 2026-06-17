@@ -56,9 +56,9 @@ La imagen presenta el backlog del Sprint 3 registrado en Jira. Su función dentr
 
 ![Sprint Backlog 3 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-3-backlog-jira.png)
 
-> *Nota:* La captura evidencia la planificación actualizada del Sprint 3, con actividades visibles, estimación total del sprint, responsables, estados y work-items orientados al cierre AV2 de WebApp, Web Services, Swagger/OpenAPI, PostgreSQL y release. Elaboración propia.
+> *Nota.* La captura evidencia la planificación actualizada del Sprint 3, con actividades visibles, estimación total del sprint, responsables, estados y work-items orientados al cierre AV2 de WebApp, Web Services, Swagger/OpenAPI, PostgreSQL y release. Elaboración propia.
 
-**URL del board/backlog Jira — Proyecto Nexa:** [https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
+**URL del board/backlog:** [Jira Backlog — Proyecto Nexa](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
 
 La siguiente tabla presenta los Work-items utilizados para descomponer el Sprint 3. Los identificadores se mantienen como trazabilidad documental del cierre AV2 registrado en Jira.
 
@@ -179,22 +179,11 @@ La selección anterior evita reutilizar commits propios de AV1 o TB1. `nexa-plat
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
 
-El Sprint 3 presenta evidencia de ejecución para el corte AV2 frontend + backend. La revisión del incremento debe considerar `nexa-platform v1.0.0`, `nexa-website v3.0.0` y `nexa-webapp v2.0.0` como evidencia técnica disponible para revisión. También se consideran el README o guía de ejecución, el despliegue controlado en Render, la documentación Swagger/OpenAPI y la preparación de los flujos core para validación.
+El Sprint 3 presenta evidencia de ejecución para el corte AV2 frontend/backend. La revisión del incremento considera `nexa-platform v1.0.0`, `nexa-website v3.0.0` y `nexa-webapp v2.0.0` como versiones disponibles para evaluación académica. Esta ejecución se documenta como despliegue controlado y evidencia técnica del incremento, no como operación productiva final.
 
-La ejecución se documenta como evidencia técnica del incremento y despliegue controlado, no como despliegue productivo. El alcance conserva límites explícitos: no se declara integración total con toda la Web Application, reemplazo total de mocks, autenticación productiva completa ni base de datos de operación final.
+La versión frontend queda respaldada por el release `nexa-webapp v2.0.0`, mientras que la versión backend queda respaldada por el release `nexa-platform v1.0.0`. El README y las release notes del repositorio `nexa-webapp` documentan la guía de ejecución, alcance y notas del corte `v2.0.0`. Para la revisión de navegación, el equipo incorporó el video `upc-pre-202610-1asi0730-12242-nexa-webapp-prototype-sprint-3`, publicado en [Microsoft Stream / SharePoint](https://upcedupe-my.sharepoint.com/personal/u202416289_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416289%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202610%2D%201asi0730%2D12242%2Dking%2Fnexa%2Dprototype%2Fupc%2Dpre%2D202610%2D1asi0730%2D12242%2Dnexa%2Dwebbapp%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E739e15be%2D2efd%2D49c4%2Da343%2D4cb5d8cab16a). Su duración es `6:46`, con transición hacia S2 en `1:44` y transición hacia S3 en `3:49`.
 
-*Evidencia de ejecución esperada para Sprint Review*
-
-| Execution Element | Evidence | Scope Statement | Status |
-|---|---|---|---|
-| Frontend release version | Captura real incorporada del release `nexa-webapp v2.0.0`. | Evidencia de versión frontend preparada para revisión AV2, sin declarar integración total con todos los servicios. | Incorporated |
-| Backend release version | Captura real incorporada del release `nexa-platform v1.0.0`. | Evidencia de versión backend disponible para revisión AV2. | Incorporated |
-| README/release guide | Release notes y README del repositorio `nexa-webapp` cubren guía de ejecución, alcance y notas del corte `v2.0.0`. | Instrucciones para ejecutar y revisar el corte AV2 frontend/backend. | Incorporated |
-| WebApp Render | Evidencia incorporada: servicio Render y capturas de sign-in/catálogo de la WebApp desplegada. | Verifica despliegue controlado de la Web Application para revisión académica. | Incorporated |
-| Platform API Render | Evidencia incorporada: servicio Render de Platform API y documentación Swagger/OpenAPI desplegada. | Verifica despliegue controlado de la Platform API para revisión académica. | Incorporated |
-| Swagger/OpenAPI | Evidencia incorporada: captura general de Swagger/OpenAPI y endpoints priorizados. | Permite validar documentación de endpoints del backend. | Incorporated |
-| Core flows prepared for validation | Evidencia incorporada parcialmente mediante capturas de login, catálogo, video de navegación, Swagger/OpenAPI y despliegues Render. | Registra flujos core priorizados para conexión frontend/backend sin declarar cobertura total. | Partially incorporated |
-| Video de navegación Sprint 3 / AV2 | Video: `upc-pre-202610-1asi0730-12242-nexa-webapp-prototype-sprint-3`. URL: **Microsoft Stream / SharePoint:** [https://upcedupe-my.sharepoint.com/personal/u202416289_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416289%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202610%2D%201asi0730%2D12242%2Dking%2Fnexa%2Dprototype%2Fupc%2Dpre%2D202610%2D1asi0730%2D12242%2Dnexa%2Dwebbapp%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E739e15be%2D2efd%2D49c4%2Da343%2D4cb5d8cab16a](https://upcedupe-my.sharepoint.com/personal/u202416289_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416289%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202610%2D%201asi0730%2D12242%2Dking%2Fnexa%2Dprototype%2Fupc%2Dpre%2D202610%2D1asi0730%2D12242%2Dnexa%2Dwebbapp%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E739e15be%2D2efd%2D49c4%2Da343%2D4cb5d8cab16a). Duración: `6:46`. S2: `1:44`. S3: `3:49`. | Demostrar la navegación lograda durante Sprint 3 y respaldar la revisión del incremento AV2. | Incorporated |
+La ejecución también incluye evidencia de WebApp desplegada en Render, Platform API desplegada en Render, Swagger/OpenAPI publicado para revisión de endpoints y flujos core preparados para validación. Estos flujos se consideran parcialmente incorporados porque las capturas de login, catálogo, video de navegación, Swagger/OpenAPI y despliegues Render sustentan el avance, pero todavía no declaran cobertura total del roadmap, reemplazo completo de servicios simulados ni integración productiva con todos los módulos de la Web Application.
 
 **Estructura del proyecto backend `nexa-platform`.** Como evidencia complementaria de implementación, se presenta la estructura del proyecto backend desarrollada para AV2. La solución se encuentra organizada por bounded contexts y capas, mostrando los módulos `CatalogManagement`, `Iam`, `Invoicing`, `Logistics`, `Sales`, `Shared` y `Warehouse`, cada uno con `Application`, `Domain`, `Infrastructure` e `Interfaces`. Además, incorpora `Migrations`, `Resources`, archivos `appsettings` y `Program.cs`, confirmando la adopción de DDD y Layered Architecture en la solución.
 
@@ -204,7 +193,7 @@ La imagen muestra la primera parte de la estructura del proyecto backend. Permit
 
 ![Nexa Platform backend project structure - part 1](../../assets/images/chapter-5/sprint-evidence/nexa-platform-project-structure-1.png)
 
-> *Nota:* La captura muestra la organización inicial del proyecto `nexa-platform`, incluyendo bounded contexts y capas técnicas utilizadas para la primera versión de Web Services. Elaboración propia.
+> *Nota.* La captura muestra la organización inicial del proyecto `nexa-platform`, incluyendo bounded contexts y capas técnicas utilizadas para la primera versión de Web Services. Elaboración propia.
 
 **Evidencia: Estructura backend de `nexa-platform` — parte 2.**
 
@@ -212,7 +201,7 @@ La imagen complementa la vista anterior de la solución backend. En conjunto, am
 
 ![Nexa Platform backend project structure - part 2](../../assets/images/chapter-5/sprint-evidence/nexa-platform-project-structure-2.png)
 
-> *Nota:* La captura complementa la evidencia de organización backend y permite observar módulos, archivos de configuración, migraciones y elementos de soporte de la Platform API. Elaboración propia.
+> *Nota.* La captura complementa la evidencia de organización backend y permite observar módulos, archivos de configuración, migraciones y elementos de soporte de la Platform API. Elaboración propia.
 
 **Evidencia: Video de navegación Sprint 3 / AV2.**
 
@@ -236,42 +225,19 @@ La imagen muestra la vista de catálogo dentro de la Web Application desplegada.
 
 ![Catálogo de productos de WebApp desplegada](../../assets/images/chapter-5/sprint-evidence/execution/webapp-catalog-render.png)
 
-> *Nota:* La captura muestra el catálogo de productos de la Web Application desplegada en Render. Elaboración propia.
+> *Nota.* La captura muestra el catálogo de productos de la Web Application desplegada en Render. Elaboración propia.
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-La documentación de servicios del Sprint 3 se alinea con el Final Project Statement para AV2: registrar la primera versión de Web Services y su evidencia OpenAPI/Swagger. Los tres recursos REST principales representan flujos core agrupados para conexión frontend/backend; no equivalen al total de operaciones HTTP disponibles en el backend.
+La documentación de servicios del Sprint 3 se alinea con el alcance AV2: registrar la primera versión de Web Services y su evidencia OpenAPI/Swagger. Los recursos REST principales se interpretan como flujos core agrupados para conexión frontend/backend; por ello, no deben confundirse con el total de operaciones HTTP disponibles en el backend.
 
-| Bounded Context | Aggregate | REST Resource | Main Responsibility | Owner |
-|---|---|---|---|---|
-| Catalog Management | CatalogItem | `/api/v1/catalog-items` | Gestionar catálogo de productos refrigerados. | R0obxdnt-bit |
-| Sales | Order | `/api/v1/orders` | Gestionar órdenes comerciales B2B. | DiegoS284 |
-| Warehouse | InventoryItem | `/api/v1/inventory-items` | Gestionar disponibilidad e inventario. | JoaquinVerde115 |
+El bounded context `Catalog Management` trabaja sobre el aggregate `CatalogItem` y expone el recurso REST `/api/v1/catalog-items`, cuya responsabilidad principal es gestionar el catálogo de productos refrigerados. Su ownership técnico se asocia a `R0obxdnt-bit`. El bounded context `Sales` trabaja sobre el aggregate `Order` y expone el recurso REST `/api/v1/orders`, orientado a gestionar órdenes comerciales B2B, con ownership principal de `DiegoS284`. El bounded context `Warehouse` trabaja sobre el aggregate `InventoryItem` y expone el recurso REST `/api/v1/inventory-items`, encargado de disponibilidad e inventario, con ownership principal de `JoaquinVerde115`.
 
-*Endpoint coverage summary for AV2*
+Para el corte AV2 se documentan tres grupos core de conexión frontend/backend: Catalog Management, Warehouse y Sales. En conjunto, el backend registra 25 endpoints HTTP estructurados todavía marcados como `To Validate`, porque deben ser confirmados mediante build, ejecución local y Swagger/OpenAPI antes de declararse como alcance cerrado. De esos endpoints, 15 corresponden a operaciones core de negocio en Catalog Management, Warehouse y Sales; y 17 corresponden a endpoints core más acceso IAM, al incluir las operaciones de sign-in y sign-up.
 
-| Coverage Level | Description | Count | Status |
-|---|---|---:|---|
-| Core frontend-backend flows | Catalog Management, Warehouse and Sales as prioritized flows for the AV2 review. | 3 groups | Documented |
-| Current backend HTTP endpoints | Operations structured in IAM, Catalog Management, Warehouse, Sales, Invoicing and Logistics controllers. | 25 | To Validate |
-| Current core business endpoints | Catalog Management, Warehouse and Sales HTTP operations. | 15 | To Validate |
-| Core endpoints with IAM access | Core business endpoints plus sign-in/sign-up operations. | 17 | To Validate |
+La distribución actual de endpoints backend queda organizada así: Catalog Management incorpora 3 operaciones HTTP para catalog item management; Warehouse incorpora 6 operaciones para disponibilidad, reserva y liberación de inventario; Sales incorpora 6 operaciones para órdenes, confirmación, rechazo y cancelación; IAM incorpora 2 operaciones para sign-in y sign-up foundation; Invoicing incorpora 4 operaciones para creación de invoice y estado de pago; y Logistics incorpora 4 operaciones para programación de shipment y estado de delivery. En total, la Platform API registra 25 endpoints HTTP estructurados para validación del Sprint 3.
 
-> *Note:* Endpoint counts distinguish individual HTTP operations from grouped core capabilities. The Sprint 3 report documents the current backend foundation and does not declare full roadmap coverage, production deployment, complete Web Application integration or complete replacement of simulated frontend services.
-
-*Currently structured backend endpoints*
-
-| Module / Controller | Functional Scope                                 | HTTP Endpoint Count | Status      |
-| ------------------- | ------------------------------------------------ | ------------------: | ----------- |
-| Catalog Management  | Catalog item management                          |                   3 | To Validate |
-| Warehouse           | Inventory availability, reservation and release  |                   6 | To Validate |
-| Sales               | Orders, confirmation, rejection and cancellation |                   6 | To Validate |
-| IAM                 | Sign-in and sign-up foundation                   |                   2 | To Validate |
-| Invoicing           | Invoice creation and payment status              |                   4 | To Validate |
-| Logistics           | Shipment scheduling and delivery status          |                   4 | To Validate |
-| Total               | Current structured backend endpoints             |                  25 | To Validate |
-
-Estos endpoints se encuentran estructurados en backend C# y deben validarse mediante build, ejecución local y Swagger/OpenAPI antes de declararse como alcance cerrado del incremento.
+Esta cobertura diferencia operaciones HTTP individuales de capacidades core agrupadas. El reporte de Sprint 3 documenta la backend foundation actual y no declara todavía cobertura completa del roadmap, operación productiva, integración total con la Web Application ni reemplazo completo de servicios simulados del frontend.
 
 **Evidencia: Swagger/OpenAPI general de Platform API.**
 
@@ -287,7 +253,7 @@ La imagen presenta los endpoints asociados a autenticación. Esta evidencia resp
 
 ![Endpoints de autenticación en Swagger/OpenAPI](../../assets/images/chapter-5/sprint-evidence/backend/swagger-authentication.png)
 
-> *Nota:*  La captura muestra los endpoints de autenticación documentados en Swagger/OpenAPI como parte de la base IAM del backend. Elaboración propia.
+> *Nota.* La captura muestra los endpoints de autenticación documentados en Swagger/OpenAPI como parte de la base IAM del backend. Elaboración propia.
 
 **Evidencia: Endpoints de Catalog Items en Swagger/OpenAPI.**
 
@@ -295,7 +261,7 @@ La imagen presenta los endpoints del recurso `Catalog Items`. Esta evidencia se 
 
 ![Endpoints de Catalog Items en Swagger/OpenAPI](../../assets/images/chapter-5/sprint-evidence/backend/swagger-catalog-items.png)
 
-> *Nota:*  La captura muestra los endpoints de Catalog Items documentados en Swagger/OpenAPI para el bounded context Catalog Management. Elaboración propia.
+> *Nota.* La captura muestra los endpoints de Catalog Items documentados en Swagger/OpenAPI para el bounded context Catalog Management. Elaboración propia.
 
 **Evidencia: Endpoints de Inventory Items en Swagger/OpenAPI.**
 
@@ -311,22 +277,17 @@ La imagen presenta los endpoints del recurso `Orders`. Esta evidencia se relacio
 
 ![Endpoints de Orders en Swagger/OpenAPI](../../assets/images/chapter-5/sprint-evidence/backend/swagger-orders.png)
 
-> *Nota:*  La captura muestra los endpoints de Orders documentados en Swagger/OpenAPI para el bounded context Sales. Elaboración propia.
+> *Nota.* La captura muestra los endpoints de Orders documentados en Swagger/OpenAPI para el bounded context Sales. Elaboración propia.
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-El Sprint 3 documenta evidencia de despliegue y preparación de release para AV2, incluyendo `nexa-platform v1.0.0`, `nexa-website v3.0.0` y `nexa-webapp v2.0.0` como evidencia técnica disponible para revisión. Esta sección no declara operación productiva; registra los artefactos que deben respaldar la revisión académica del corte frontend/backend.
+El Sprint 3 documenta evidencia de despliegue y preparación de release para AV2, incluyendo `nexa-platform v1.0.0`, `nexa-website v3.0.0` y `nexa-webapp v2.0.0` como evidencia técnica disponible para revisión. Esta sección no declara operación productiva; registra los artefactos que respaldan la revisión académica del corte frontend/backend.
 
-La evidencia debe distinguir entre versión preparada para revisión, ejecución local y validación pendiente. No se declara integración total con toda la Web Application, reemplazo completo de servicios simulados, autenticación productiva completa, base de datos de operación final ni cobertura completa del roadmap backend.
+El backend se sustenta con la captura real del release `nexa-platform v1.0.0`, que registra la versión de Web Services disponible para revisión AV2. La Web Application se sustenta con el release `nexa-webapp v2.0.0`, asociado al corte frontend. La Landing Page se sustenta con el release `nexa-website v3.0.0`, utilizado como versión pública de cierre AV2. La guía README y las release notes complementan el despliegue porque explican cómo ejecutar y revisar los productos sin asumir operación productiva final.
 
-| Deployment / Release Evidence | Evidence | Scope Statement | Status |
-|---|---|---|---|
-| Backend release evidence | Captura real incorporada del release backend `v1.0.0`. | Registra la versión de Web Services disponible para revisión AV2. | Incorporated |
-| Frontend release evidence | Captura real incorporada del release `nexa-webapp v2.0.0`. | Registra la versión frontend asociada al corte AV2. | Incorporated |
-| README execution guide | Release notes y README del repositorio `nexa-webapp` cubren guía de ejecución, alcance y notas del corte `v2.0.0`. | Explica cómo ejecutar y revisar frontend/backend sin depender de despliegue productivo. | Incorporated |
-| WebApp Render deployment | Evidencia incorporada con captura real del servicio Render WebApp. | Documenta el despliegue controlado de la Web Application para revisión académica. | Incorporated |
-| Platform API Render deployment | Evidencia incorporada con captura real del servicio Render Platform API. | Documenta el despliegue controlado de la API backend estructurada en C# como primer corte de servicios. | Incorporated |
-| Swagger/OpenAPI URL or capture | Evidencia incorporada con captura real de Swagger/OpenAPI. | Evidencia de documentación de endpoints; no implica operación productiva. | Incorporated |
+El despliegue controlado incluye la Web Application publicada en Render, la Platform API publicada en Render y la base PostgreSQL preparada para el backend. Como referencias de revisión se mantienen los entornos `https://nexa-webapp.onrender.com` para la WebApp y `https://nexa-platform-api.onrender.com` para la Platform API. La evidencia de Swagger/OpenAPI se considera parte del despliegue porque permite validar documentación de endpoints desde la API preparada para revisión.
+
+La evidencia distingue entre versión preparada, ejecución controlada y validación pendiente. No se declara integración total con toda la Web Application, reemplazo completo de servicios simulados, autenticación productiva completa, base de datos de operación final ni cobertura completa del roadmap backend.
 
 **Evidencia: Vista general del dashboard de Render.**
 
@@ -350,7 +311,7 @@ La imagen evidencia el servicio de Render asociado a la Web Application. Esta ca
 
 ![Render WebApp service](../../assets/images/chapter-5/sprint-evidence/deployment/render-webapp-service.png)
 
-> *Nota:*  La captura muestra el servicio Render de la Web Application desplegada para revisión académica AV2. Elaboración propia.
+> *Nota.* La captura muestra el servicio Render de la Web Application desplegada para revisión académica AV2. Elaboración propia.
 
 **Evidencia: Configuración de entorno de la WebApp en Render.**
 
@@ -358,7 +319,7 @@ La imagen muestra la configuración de entorno asociada al servicio WebApp en Re
 
 ![Render WebApp environment](../../assets/images/chapter-5/sprint-evidence/deployment/render-webapp-environment.png)
 
-> *Nota:*  La captura muestra la configuración de entorno del servicio WebApp en Render. Elaboración propia.
+> *Nota.* La captura muestra la configuración de entorno del servicio WebApp en Render. Elaboración propia.
 
 **Evidencia: Servicio Render de la Platform API.**
 
@@ -374,7 +335,7 @@ La imagen muestra la configuración de entorno del servicio Platform API en Rend
 
 ![Render Platform API environment](../../assets/images/chapter-5/sprint-evidence/deployment/render-platform-api-environment.png)
 
-> *Nota:*  La captura muestra variables o configuración de entorno de la Platform API en Render. Elaboración propia.
+> *Nota.* La captura muestra variables o configuración de entorno de la Platform API en Render. Elaboración propia.
 
 **Evidencia: Servicio PostgreSQL en Render.**
 
@@ -382,7 +343,7 @@ La imagen presenta el servicio PostgreSQL configurado en Render. Esta evidencia 
 
 ![Render PostgreSQL service](../../assets/images/chapter-5/sprint-evidence/deployment/render-postgresql-service.png)
 
-> *Nota:*  La captura muestra el servicio PostgreSQL en Render asociado al despliegue académico AV2. Elaboración propia.
+> *Nota.* La captura muestra el servicio PostgreSQL en Render asociado al despliegue académico AV2. Elaboración propia.
 
 **Evidencia: Landing Page desplegada en GitHub Pages.**
 
@@ -390,38 +351,7 @@ La imagen evidencia el despliegue de la Landing Page mediante GitHub Pages. Esta
 
 ![Landing Page desplegada en GitHub Pages](../../assets/images/chapter-5/sprint-evidence/deployment/github-pages-website-deployment.png)
 
-> *Nota:* La captura muestra el despliegue de la Landing Page en GitHub Pages para el corte AV2. Elaboración propia.
-
-### Evidencias visuales pendientes de Sprint 3 / AV2
-
-La siguiente tabla ordena las capturas disponibles y pendientes para respaldar el incremento Sprint 3 / AV2. Las rutas indicadas permiten distinguir evidencia real ya incorporada de evidencia que todavía debe completarse para el cierre global del sprint.
-
-| Evidencia | Propósito en Sprint 3 | Ruta sugerida en assets                                                                                                                                                                                  | Estado                                                                                                                         |
-|---|---|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Jira Sprint 3 / board final | Evidenciar el tablero final usado para organizar el incremento AV2. | `report/assets/images/chapter-5/sprint-evidence/jira/sprint-3-board-jira.png`                                                                                                                            | Incorporado con imagen real.                                                                                                   |
-| Sprint Backlog o tablero de tareas | Respaldar la planificación y seguimiento de tareas del Sprint 3. | `report/assets/images/chapter-5/sprint-evidence/jira/sprint-3-backlog-jira.png`; `report/assets/images/chapter-5/sprint-evidence/jira/sprint-3-task-status-jira.png`                                     | Incorporado con imágenes reales.                                                                                               |
-| Render WebApp service | Evidenciar el servicio Render asociado a la Web Application desplegada en `https://nexa-webapp.onrender.com`. | `report/assets/images/chapter-5/sprint-evidence/deployment/render-webapp-service.png`                                                                                                                    | Incorporado con imagen real.                                                                                                   |
-| Render Platform API service | Evidenciar el servicio Render asociado a la Platform API desplegada en `https://nexa-platform-api.onrender.com`. | `report/assets/images/chapter-5/sprint-evidence/deployment/render-platform-api-service.png`                                                                                                              | Incorporado con imagen real.                                                                                                   |
-| Render PostgreSQL database service o configuración PostgreSQL | Respaldar la configuración PostgreSQL usada por `nexa-platform` en el despliegue académico AV2. | `report/assets/images/chapter-5/sprint-evidence/deployment/render-postgresql-service.png`                                                                                                                | Incorporado con imagen real.                                                                                                   |
-| Swagger/OpenAPI de Platform API | Evidenciar la documentación de Web Services AV2 con .NET 10, Swagger/OpenAPI y endpoints estructurados. | `report/assets/images/chapter-5/sprint-evidence/backend/swagger-openapi-platform-api.png`                                                                                                                | Incorporado con imagen real.                                                                                                   |
-| Estructura del proyecto backend `nexa-platform` | Mostrar la organización backend por bounded contexts, Web Services, EF Core y PostgreSQL para AV2. | `report/assets/images/chapter-5/sprint-evidence/nexa-platform-project-structure-1.png, report/assets/images/chapter-5/sprint-evidence/nexa-platform-project-structure-2.png`                                                                                                                 | Incorporado con imagen real                                                                                                    |
-| GitHub Release `nexa-website v3.0.0` | Respaldar el release de cierre AV2 disponible para revisión de Landing Page. | `report/assets/images/chapter-5/sprint-evidence/releases/nexa-website-v3-0-0-release.png`                                                                                                                | Incorporado con imagen real.                                                                                                   |
-| GitHub Release `nexa-webapp v2.0.0` | Respaldar el release de cierre AV2 disponible para revisión de Web Application. | `report/assets/images/chapter-5/sprint-evidence/releases/nexa-webapp-v2-0-0-release.png`                                                                                                                 | Incorporado con imagen real.                                                                                                   |
-| GitHub Release `nexa-platform v1.0.0` | Respaldar el release de cierre AV2 disponible para revisión de Web Services. | `report/assets/images/chapter-5/sprint-evidence/releases/nexa-platform-v1-0-0-release.png`                                                                                                               | Incorporado con imagen real.                                                                                                   |
-| Branches `nexa-website` | Evidenciar la rama principal de Landing Page durante el corte AV2. | `report/assets/images/chapter-5/sprint-evidence/gitflow/nexa-website-branches.png`                                                                                                                       | Incorporado con imagen real.                                                                                                   |
-| Branches `nexa-platform` | Evidenciar ramas `main` y `develop` de Web Services durante el corte AV2. | `report/assets/images/chapter-5/sprint-evidence/gitflow/nexa-platform-branches.png`                                                                                                                      | Incorporado con imagen real.                                                                                                   |
-| Branches `nexa-webapp` | Evidenciar ramas `main` y `develop` de Web Application durante el corte AV2. | `report/assets/images/chapter-5/sprint-evidence/gitflow/nexa-webapp-branches.png`                                                                                                                        | Incorporado con imagen real.                                                                                                   |
-| Commits recientes AV2 `nexa-website` | Evidenciar commits recientes de Landing Page asociados al corte AV2. | `report/assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-recent.png`                                                                                                       | Incorporado con imagen real.                                                                                                   |
-| Commits históricos de cierre AV2 `nexa-website` | Evidenciar continuidad histórica de commits de Landing Page para AV2. | `report/assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-history.png`                                                                                                      | Incorporado con imagen real.                                                                                                   |
-| Commits recientes AV2 `nexa-platform` | Evidenciar commits recientes de Web Services asociados al release disponible para revisión. | `report/assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-recent.png`                                                                                                      | Incorporado con imagen real.                                                                                                   |
-| Commits por bounded context `nexa-platform` | Evidenciar commits por bounded context y ramas de integración de Web Services. | `report/assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-contexts.png`                                                                                                    | Incorporado con imagen real.                                                                                                   |
-| Commits recientes AV2 `nexa-webapp` | Evidenciar commits recientes de Web Application asociados al release disponible para revisión. | `report/assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-1.png`; `report/assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-2.png` | Incorporado con imágenes reales.                                                                                               |
-| GitHub Insights AV2 `nexa-webapp` | Evidenciar autores, commits y releases de Web Application durante el corte AV2. | `report/assets/images/front-matter/collaboration/github-insights/nexa-webapp-insights-av2.png`                                                                                                           | Incorporado en Collaboration Insights.                                                                                         |
-| Captura de ejecución WebApp desplegada | Evidenciar la ejecución de la Web Application en el entorno de despliegue AV2. | `report/assets/images/chapter-5/sprint-evidence/execution/webapp-login-render.png`; `report/assets/images/chapter-5/sprint-evidence/execution/webapp-catalog-render.png`                                 | Parcialmente incorporado con login y catálogo desplegados.                                                                     |
-| Captura de ejecución Platform API desplegada | Evidenciar la ejecución de la Platform API en el entorno de despliegue AV2. | `report/assets/images/chapter-5/sprint-evidence/backend/swagger-openapi-platform-api.png`                                                                                                                | Cubierto parcialmente por Swagger/OpenAPI desplegado.                                                                          |
-| Video de navegación Sprint 3 / AV2 | Demostrar la navegación lograda durante Sprint 3 con evidencia audiovisual para revisión AV2. | `report/assets/images/chapter-5/sprint-evidence/video/sprint-3-navigation-video-screenshot.png`                                                                                                          | Incorporado con captura real, duración `6:46`, transición S2 `1:44`, transición S3 `3:49` y URL Microsoft Stream / SharePoint. |
-
-> *Nota:* Esta evidencia registra el cierre técnico AV2 disponible para `nexa-website`, `nexa-platform` y `nexa-webapp`. El cierre completo de la entrega mantiene pendientes las evidencias no técnicas de validación, videos, coordinación y revisión AV2.
+> *Nota.* La captura muestra el despliegue de la Landing Page en GitHub Pages para el corte AV2. Elaboración propia.
 
 **Evidencia: GitHub Release `nexa-webapp v2.0.0`.**
 
@@ -429,33 +359,7 @@ La imagen muestra el release de cierre AV2 de la Web Application. Esta evidencia
 
 ![GitHub Release nexa-webapp v2.0.0](../../assets/images/chapter-5/sprint-evidence/releases/nexa-webapp-v2-0-0-release.png)
 
-> *Nota:* La captura muestra el release `nexa-webapp v2.0.0`, utilizado como evidencia de cierre AV2 de la Web Application. Elaboración propia.
-
-**Evidencia: Branches de `nexa-webapp` durante AV2.**
-
-La imagen presenta las ramas visibles del repositorio `nexa-webapp`. Esta evidencia respalda el uso de control de versiones y separación de trabajo durante el Sprint 3 para la evolución de la Web Application.
-
-![Branches nexa-webapp AV2](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-webapp-branches.png)
-
-> *Nota:* La captura muestra las branches de `nexa-webapp` utilizadas durante el corte AV2. Elaboración propia.
-
-**Evidencia: Commits recientes de `nexa-webapp` — parte 1.**
-
-La imagen muestra una primera vista de commits recientes del repositorio `nexa-webapp`. Esta evidencia permite relacionar cambios de frontend, ajustes de navegación y preparación de release con el corte AV2.
-
-![Commits recientes nexa-webapp AV2 - parte 1](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-1.png)
-
-> *Nota:* La captura muestra commits recientes de `nexa-webapp` asociados al release `v2.0.0`, parte 1. Elaboración propia.
-
-**Evidencia: Commits recientes de `nexa-webapp` — parte 2.**
-
-La imagen complementa la evidencia de commits recientes de `nexa-webapp`. Permite observar continuidad en los cambios realizados para estabilizar la Web Application durante el Sprint 3.
-
-![Commits recientes nexa-webapp AV2 - parte 2](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-2.png)
-
-> *Nota:* La captura muestra commits recientes de `nexa-webapp` asociados al release `v2.0.0`, parte 2. Elaboración propia.
-
-El rastro de releases de WebApp se interpreta de forma incremental: `v1.7.1` queda como patch AV2 previo, `v1.8.0` registra cleanup y layout polish, y `v2.0.0` queda como release de cierre actual de WebApp para el corte AV2.
+> *Nota.* La captura muestra el release `nexa-webapp v2.0.0`, utilizado como evidencia de cierre AV2 de la Web Application. Elaboración propia.
 
 **Evidencia: GitHub Release `nexa-website v3.0.0`.**
 
@@ -463,31 +367,7 @@ La imagen muestra el release de cierre AV2 de la Landing Page. Esta evidencia su
 
 ![GitHub Release nexa-website v3.0.0](../../assets/images/chapter-5/sprint-evidence/releases/nexa-website-v3-0-0-release.png)
 
-> *Nota:* La captura muestra el release de cierre AV2 disponible para revisión de `nexa-website v3.0.0`. Elaboración propia.
-
-**Evidencia: Branches de `nexa-website` durante AV2.**
-
-La imagen presenta las ramas visibles del repositorio `nexa-website`. Esta evidencia respalda la gestión de versiones y la evolución controlada del Landing Page durante el corte AV2.
-
-![Branches de nexa-website](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-website-branches.png)
-
-> *Nota:* La captura muestra las branches de `nexa-website` utilizadas durante el corte AV2. Elaboración propia.
-
-**Evidencia: Commits recientes de `nexa-website`.**
-
-La imagen muestra commits recientes del repositorio `nexa-website`. Esta evidencia permite relacionar ajustes de contenido, navegación, accesibilidad o experiencia pública con la entrega AV2.
-
-![Commits recientes AV2 de nexa-website](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-recent.png)
-
-> *Nota:* La captura muestra commits recientes de `nexa-website` asociados al corte AV2. Elaboración propia.
-
-**Evidencia: Commits históricos de cierre AV2 de `nexa-website`.**
-
-La imagen complementa la evidencia de colaboración en el repositorio `nexa-website`. Su propósito es mostrar continuidad histórica del trabajo realizado sobre la Landing Page antes del cierre AV2.
-
-![Commits históricos de cierre AV2 de nexa-website](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-history.png)
-
-> *Nota:* La captura muestra commits históricos de cierre AV2 de `nexa-website`. Elaboración propia.
+> *Nota.* La captura muestra el release de cierre AV2 disponible para revisión de `nexa-website v3.0.0`. Elaboración propia.
 
 **Evidencia: GitHub Release `nexa-platform v1.0.0`.**
 
@@ -495,37 +375,17 @@ La imagen muestra el release de cierre AV2 de la Platform API. Esta evidencia pe
 
 ![GitHub Release nexa-platform v1.0.0](../../assets/images/chapter-5/sprint-evidence/releases/nexa-platform-v1-0-0-release.png)
 
-> *Nota:* La captura muestra el release de cierre AV2 disponible para revisión de `nexa-platform v1.0.0`. Elaboración propia.
-
-**Evidencia: Branches de `nexa-platform` durante AV2.**
-
-La imagen presenta las ramas visibles del repositorio `nexa-platform`. Esta evidencia respalda la separación de trabajo backend, incluyendo ramas principales y de integración usadas durante Sprint 3.
-
-![Branches de nexa-platform](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-platform-branches.png)
-
-> *Nota:* La captura muestra las branches de `nexa-platform` utilizadas durante el corte AV2. Elaboración propia.
-
-**Evidencia: Commits recientes de `nexa-platform`.**
-
-La imagen muestra commits recientes del repositorio `nexa-platform`. Esta evidencia permite relacionar la implementación de Web Services, persistencia, documentación y release del backend con el trabajo del Sprint 3.
-
-![Commits recientes AV2 de nexa-platform](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-recent.png)
-
-> *Nota:* La captura muestra commits recientes de `nexa-platform` asociados al corte AV2. Elaboración propia.
-
-**Evidencia: Commits por bounded context de `nexa-platform`.**
-
-La imagen evidencia commits organizados por bounded context o ramas de integración del backend. Esta captura se relaciona directamente con la matriz de Aspect Leaders and Collaborators, porque muestra la colaboración por Catalog Management, Sales, Warehouse, IAM, Invoicing, Logistics y Shared Kernel.
-
-![Commits por bounded context de nexa-platform](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-contexts.png)
-
-> *Nota:* La captura muestra commits por bounded context de `nexa-platform`, reforzando la trazabilidad de colaboración modular del Sprint 3. Elaboración propia.
+> *Nota.* La captura muestra el release de cierre AV2 disponible para revisión de `nexa-platform v1.0.0`. Elaboración propia.
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
 
-La colaboración del Sprint 3 se estructuró por bounded context, preparación de release y responsabilidades transversales de frontend/backend. Esta distribución permitió separar el avance de Catalog Management, Sales y Warehouse, mientras se mantenía una base compartida para configuración de API, documentación, Shared Kernel, repositorios, Unit of Work, guía de ejecución y preparación de la primera Web Services API.
+La colaboración del Sprint 3 se estructuró por bounded context, preparación de release y responsabilidades transversales de frontend/backend. Esta distribución permitió separar el avance de Catalog Management, Sales, Warehouse, IAM, Invoicing, Logistics y Shared Kernel, manteniendo una base común para configuración de API, documentación, repositorios, Unit of Work, guía de ejecución y preparación de la primera Web Services API.
 
 El flujo de trabajo permitió organizar responsabilidades backend alrededor de ramas por bounded context y capa, incluyendo `main`, `develop`, commits de persistencia/PostgreSQL, documentación de repositorio, seguridad, comunidad y el tag `v1.0.0` como release disponible para revisión AV2.
+
+En Catalog Management, el ownership principal de `R0obxdnt-bit` se concentró en `CatalogItem` y el recurso `/api/v1/catalog-items`, con el resultado esperado de habilitar un recurso inicial para el catálogo de productos refrigerados. En Sales, el liderazgo de `DiegoS284` se orientó al aggregate `Order`, el recurso `/api/v1/orders`, el bootstrapping de la API, la documentación backend y la higiene de release, con el resultado de sostener órdenes comerciales B2B y coordinación técnica transversal. En Warehouse, el ownership de `JoaquinVerde115` se vinculó con `InventoryItem` y `/api/v1/inventory-items`, produciendo un recurso inicial para disponibilidad e inventario.
+
+La foundation compartida integró Shared Kernel, repositories, Unit of Work, EF Core/PostgreSQL y Swagger/OpenAPI como base técnica común para la evolución backend. La higiene de GitFlow y release permitió separar ramas, consolidar `nexa-platform v1.0.0`, `nexa-website v3.0.0` y `nexa-webapp v2.0.0`, y mantener trazabilidad del incremento sin declarar operación productiva.
 
 **Evidencia: Tablero Sprint 3 en Jira.**
 
@@ -533,7 +393,7 @@ La imagen muestra el tablero de trabajo del Sprint 3 en Jira. Esta evidencia per
 
 ![Tablero Sprint 3 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-3-board-jira.png)
 
-> *Nota:* El tablero de Jira muestra la distribución del trabajo del Sprint 3 por estados del flujo de trabajo, permitiendo observar el seguimiento operativo de las actividades del incremento AV2. Elaboración propia.
+> *Nota.* El tablero de Jira muestra la distribución del trabajo del Sprint 3 por estados del flujo de trabajo, permitiendo observar el seguimiento operativo de las actividades del incremento AV2. Elaboración propia.
 
 **Evidencia: Seguimiento de tareas Sprint 3 en Jira.**
 
@@ -541,14 +401,80 @@ La imagen presenta una vista de seguimiento de tareas del Sprint 3. Esta evidenc
 
 ![Seguimiento de tareas Sprint 3 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-3-task-status-jira.png)
 
-> *Nota:* La vista de seguimiento de tareas muestra responsables, informadores, prioridad, estado, resolución y fechas de actualización, reforzando la trazabilidad del trabajo realizado durante Sprint 3. Elaboración propia.
+> *Nota.* La vista de seguimiento de tareas muestra responsables, informadores, prioridad, estado, resolución y fechas de actualización, reforzando la trazabilidad del trabajo realizado durante Sprint 3. Elaboración propia.
 
-| Frente | Organización del trabajo | Resultado esperado |
-|---|---|---|
-| Catalog Management | Ownership de R0obxdnt-bit sobre `CatalogItem` y `/api/v1/catalog-items` | Recurso inicial para catálogo de productos refrigerados |
-| Sales | Liderazgo de DiegoS284 sobre `Order`, `/api/v1/orders`, bootstrapping de API, documentación backend y release hygiene | Recurso inicial para órdenes comerciales B2B y coordinación técnica transversal |
-| Warehouse | Ownership de JoaquinVerde115 sobre `InventoryItem` y `/api/v1/inventory-items` | Recurso inicial para disponibilidad e inventario |
-| Shared foundation | Coordinación sobre Shared Kernel, repositories, Unit of Work, EF Core/PostgreSQL y Swagger/OpenAPI | Base técnica común para evolución backend |
-| GitFlow/release hygiene | Separación por ramas, consolidación de `nexa-platform v1.0.0`, `nexa-website v3.0.0` y `nexa-webapp v2.0.0` como releases disponibles para revisión AV2 | Trazabilidad del incremento sin declarar operación productiva |
+**Evidencia: Branches de `nexa-webapp` durante AV2.**
+
+La imagen presenta las ramas visibles del repositorio `nexa-webapp`. Esta evidencia respalda la gestión de versiones del frontend y la preparación del release `v2.0.0`.
+
+![Branches de nexa-webapp](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-webapp-branches.png)
+
+> *Nota.* La captura muestra las branches de `nexa-webapp` utilizadas durante el corte AV2. Elaboración propia.
+
+**Evidencia: Commits recientes de `nexa-webapp` — parte 1.**
+
+La imagen muestra una primera vista de commits recientes del repositorio `nexa-webapp`. Esta evidencia permite relacionar cambios de frontend, ajustes de navegación y preparación de release con el corte AV2.
+
+![Commits recientes nexa-webapp AV2 - parte 1](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-1.png)
+
+> *Nota.* La captura muestra commits recientes de `nexa-webapp` asociados al release `v2.0.0`, parte 1. Elaboración propia.
+
+**Evidencia: Commits recientes de `nexa-webapp` — parte 2.**
+
+La imagen complementa la evidencia de commits recientes de `nexa-webapp`. Permite observar continuidad en los cambios realizados para estabilizar la Web Application durante el Sprint 3.
+
+![Commits recientes nexa-webapp AV2 - parte 2](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-2.png)
+
+> *Nota.* La captura muestra commits recientes de `nexa-webapp` asociados al release `v2.0.0`, parte 2. Elaboración propia.
+
+El rastro de releases de WebApp se interpreta de forma incremental: `v1.7.1` queda como patch AV2 previo, `v1.8.0` registra cleanup y layout polish, y `v2.0.0` queda como release de cierre actual de WebApp para el corte AV2.
+
+**Evidencia: Branches de `nexa-website` durante AV2.**
+
+La imagen presenta las ramas visibles del repositorio `nexa-website`. Esta evidencia respalda la gestión de versiones y la evolución controlada del Landing Page durante el corte AV2.
+
+![Branches de nexa-website](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-website-branches.png)
+
+> *Nota.* La captura muestra las branches de `nexa-website` utilizadas durante el corte AV2. Elaboración propia.
+
+**Evidencia: Commits recientes de `nexa-website`.**
+
+La imagen muestra commits recientes del repositorio `nexa-website`. Esta evidencia permite relacionar ajustes de contenido, navegación, accesibilidad o experiencia pública con la entrega AV2.
+
+![Commits recientes AV2 de nexa-website](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-recent.png)
+
+> *Nota.* La captura muestra commits recientes de `nexa-website` asociados al corte AV2. Elaboración propia.
+
+**Evidencia: Commits históricos de cierre AV2 de `nexa-website`.**
+
+La imagen complementa la evidencia de colaboración en el repositorio `nexa-website`. Su propósito es mostrar continuidad histórica del trabajo realizado sobre la Landing Page antes del cierre AV2.
+
+![Commits históricos de cierre AV2 de nexa-website](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-history.png)
+
+> *Nota.* La captura muestra commits históricos de cierre AV2 de `nexa-website`. Elaboración propia.
+
+**Evidencia: Branches de `nexa-platform` durante AV2.**
+
+La imagen presenta las ramas visibles del repositorio `nexa-platform`. Esta evidencia respalda la separación de trabajo backend, incluyendo ramas principales y de integración usadas durante Sprint 3.
+
+![Branches de nexa-platform](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-platform-branches.png)
+
+> *Nota.* La captura muestra las branches de `nexa-platform` utilizadas durante el corte AV2. Elaboración propia.
+
+**Evidencia: Commits recientes de `nexa-platform`.**
+
+La imagen muestra commits recientes del repositorio `nexa-platform`. Esta evidencia permite relacionar la implementación de Web Services, persistencia, documentación y release del backend con el trabajo del Sprint 3.
+
+![Commits recientes AV2 de nexa-platform](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-recent.png)
+
+> *Nota.* La captura muestra commits recientes de `nexa-platform` asociados al corte AV2. Elaboración propia.
+
+**Evidencia: Commits por bounded context de `nexa-platform`.**
+
+La imagen evidencia commits organizados por bounded context o ramas de integración del backend. Esta captura se relaciona directamente con la matriz de Aspect Leaders and Collaborators, porque muestra la colaboración por Catalog Management, Sales, Warehouse, IAM, Invoicing, Logistics y Shared Kernel.
+
+![Commits por bounded context de nexa-platform](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-contexts.png)
+
+> *Nota.* La captura muestra commits por bounded context de `nexa-platform`, reforzando la trazabilidad de colaboración modular del Sprint 3. Elaboración propia.
 
 La conclusión del Sprint 3 es que Nexa establece su primer corte AV2 frontend/backend, documenta endpoints HTTP estructurados en C# y prioriza tres flujos core de integración asociados a Catalog Management, Warehouse y Sales. El incremento reduce la dependencia conceptual de servicios simulados, registra WebApp y Platform API en Render, y documenta la evolución hacia PostgreSQL para el despliegue controlado. El alcance conserva límites explícitos: no declara operación productiva, integración total con toda la Web Application, reemplazo total de servicios simulados, autenticación productiva completa ni validación cerrada con usuarios.
