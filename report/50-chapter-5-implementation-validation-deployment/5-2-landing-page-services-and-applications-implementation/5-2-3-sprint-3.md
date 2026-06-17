@@ -6,12 +6,12 @@ La versión de referencia disponible del backend para esta evidencia parcial es 
 
 ### 5.2.3.1. Sprint Planning 3
 
-La planificación del Sprint 3 organizó el avance técnico del backend de Nexa Platform. El sprint priorizó la creación de una foundation backend defendible, organizada por bounded contexts y preparada para documentar recursos REST internos sin declarar todavía operación productiva.
+La planificación del Sprint 3 organizó el avance AV2 por segmento, integrando la nueva versión de Landing Page, la nueva versión de Web Application y la primera versión de Web Services de Nexa Platform. El sprint priorizó una foundation backend defendible, organizada por bounded contexts, junto con evidencias de navegación, despliegue controlado en Render, PostgreSQL y documentación Swagger/OpenAPI para los flujos principales de S1, S2 y S3, sin declarar todavía operación productiva.
 
 | Campo | Registro |
 |---|---|
 | Sprint # | Sprint 3 |
-| Sprint Planning Background | Tercer incremento del proyecto orientado a consolidar la foundation backend de Nexa Platform con ASP.NET Core Web API, arquitectura modular por bounded contexts y recursos REST iniciales para Catalog Management, Sales y Warehouse. |
+| **Sprint Planning Background** | Tercer incremento del proyecto orientado a consolidar la foundation backend de Nexa Platform con ASP.NET Core Web API, arquitectura modular por bounded contexts y recursos REST iniciales para Catalog Management, Sales y Warehouse, manteniendo trazabilidad con el cierre AV2 de Landing Page y Web Application. |
 | Date | 2026-05-20 |
 | Time | 08:00 PM |
 | Location | Reunión virtual del equipo |
@@ -19,38 +19,42 @@ La planificación del Sprint 3 organizó el avance técnico del backend de Nexa 
 | Attendees (to planning meeting) | Yucra Sandoval, Diego Sebastian / Verde Bueno, Joaquín / Marín Cueva, César / Rojas Mancilla, Gerard / Torrejón, Gino |
 | Sprint 2 Review Summary | Sprint 2 dejó como base la Web Application TB1, los flujos internos S1/S2, el alcance parcial de S3 y el soporte de servicios simulados para validar recorridos frontend. |
 | Sprint 2 Retrospective Summary | El equipo identificó la necesidad de separar con mayor claridad la simulación frontend de la API interna objetivo, reforzando la foundation backend y la trazabilidad técnica del repositorio `nexa-platform`. |
-| Sprint Goal & User Stories | Primer incremento AV2 frontend/backend, actualización de la Landing Page y Web Application, primera versión de Web Services, integración inicial con WebApp, despliegue académico en Render, PostgreSQL, Swagger/OpenAPI y evidencia para Sprint Review de los flujos principales de S1 Commercial Coordination, S2 Operations / Account Owner y S3 B2B Buyer Portal. |
-| Sprint 3 Goal | Nuestro foco está en entregar la primera versión de Web Services de Nexa e integrarla inicialmente con la WebApp, dejando el incremento AV2 desplegado académicamente en Render con PostgreSQL y documentación Swagger/OpenAPI para revisión. Creemos que esto aporta trazabilidad técnica y demostración funcional del corte AV2 para S1 Commercial Coordination, S2 Operations / Account Owner y S3 B2B Buyer Portal. Esto se confirmará cuando los endpoints documentados, el despliegue académico y los flujos principales puedan demostrarse con evidencias durante el Sprint Review. |
-| Sprint 3 Velocity | 213 completed Story Points |
-| Sum of Story Points | 213 Story Points |
+| **Sprint Goal & User Stories** |  |
+| Sprint 3 Goal — S1 Commercial Coordination | Nuestro foco está en permitir que Coordinación Comercial valide solicitudes B2B, consulte disponibilidad visible y convierta solicitudes validadas en órdenes trazables. Creemos que esto entrega menor doble digitación, mejor control de compromisos comerciales y mayor claridad para el equipo S1. Esto se confirmará cuando la WebApp y los recursos REST de catálogo, disponibilidad y órdenes puedan demostrarse con evidencia de despliegue, Swagger/OpenAPI y Sprint Review. |
+| Sprint 3 Goal — S2 Operations / Account Owner | Nuestro foco está en centralizar inventario, reservas, criterio FEFO, movimientos de stock, despacho y administración inicial del tenant para Operaciones y Account Owner. Creemos que esto entrega mayor control sobre disponibilidad, lotes, preparación y trazabilidad operativa. Esto se confirmará cuando las evidencias de Warehouse, PostgreSQL, Render y Swagger/OpenAPI muestren los recursos de inventario, reservas y soporte operativo priorizados para AV2. |
+| Sprint 3 Goal — S3 B2B Buyer Portal | Nuestro foco está en completar el recorrido visible del comprador B2B para consultar catálogo, generar solicitudes, revisar estados, documentos y seguimiento desde el Buyer Portal. Creemos que esto entrega mayor autonomía al comprador y reduce la dependencia de consultas manuales por WhatsApp o llamadas. Esto se confirmará cuando el User Flow S3, Wireflow S3, mockups, navegación de la WebApp y video/capturas AV2 demuestren la transición hacia el Buyer Portal. |
+| Sprint 3 Velocity | 213 horas completadas |
+| Sum of Hours | 213 horas |
 
-> *Nota.* El dato se obtiene del Sprint Backlog 3 en Jira, donde la estimación visible del sprint registra `213 de 213` Story Points.
+> *Nota.* El dato se obtiene del Sprint Backlog 3 en Jira, donde la estimación visible del sprint registra `213 de 213`. Para mantener consistencia con la métrica solicitada para Sprint 3 y con la columna `Estimation (Hours)` del Sprint Backlog, el valor se expresa como `213 horas`.
 
 Para evitar ambigüedad de alcance, se distingue entre endpoint HTTP, REST resource y core endpoint group o core flow. Un endpoint HTTP corresponde a una operación concreta expuesta por la API, por ejemplo una ruta con un método específico. Un REST resource agrupa operaciones asociadas a una entidad o aggregate, como `/api/v1/orders`. Un core endpoint group representa una capacidad funcional priorizada para validar conexión frontend/backend. Por ello, Catalog, Inventory/Warehouse y Orders/Sales se documentan como tres flujos core agrupados, mientras que el backend actual registra 25 operaciones HTTP estructuradas.
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
-La ejecución del Sprint 3 se organiza por responsabilidades backend. La distribución prioriza ownership por bounded context y distingue liderazgo técnico transversal cuando la evidencia corresponde a arquitectura, API bootstrapping, documentación backend o higiene de ramas y releases.
+La ejecución del Sprint 3 se organizó por bounded contexts, porque el incremento AV2 priorizó la primera versión de Web Services de `nexa-platform` y su separación modular. Por ello, la matriz de liderazgo y colaboración usa como columnas los contextos trabajados durante el sprint, en lugar de frentes genéricos como project management, architecture o documentation. La marca `L` identifica al responsable principal del contexto y la marca `C` identifica participación de soporte, integración o revisión técnica.
 
-*Distribución de liderazgos y roles funcionales en el Sprint 3*
+*Distribución de liderazgos y colaboradores por bounded context en el Sprint 3*
 
-| Team Member | GitHub Username | Project Management | Backend Architecture | Domain Modeling | REST API Development | Persistence | Documentation |
-|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Yucra Sandoval, Diego Sebastian | DiegoS284 | L | L | L | L | C | L |
-| Verde Bueno, Joaquín Francisco | JoaquinVerde115 | C | C | L | L | L | C |
-| Marín Cueva, César Fernando | Cmarin2802 | - | - | C | C | - | C |
-| Torrejón De Los Santos, Gino Rodrigo | R0obxdnt-bit | C | C | L | L | C | C |
-| Rojas Mancilla, Gerard Gianpier | GerardRojasMancilla | - | C | C | - | C | C |
+| Team Member | GitHub Username | Catalog Management | Sales | Warehouse | IAM | Invoicing | Logistics | Shared Kernel |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Yucra Sandoval, Diego Sebastian | DiegoS284 | C | L | C | L | C | C | C |
+| Verde Bueno, Joaquín Francisco | JoaquinVerde115 | C | C | L | C | C | C | C |
+| Marín Cueva, César Fernando | Cmarin2802 | - | C | - | - | - | L | C |
+| Torrejón De Los Santos, Gino Rodrigo | R0obxdnt-bit | L | C | C | - | - | - | C |
+| Rojas Mancilla, Gerard Gianpier | GerardRojasMancilla | - | - | C | C | L | C | L |
 
-DiegoS284 queda representado como líder del bounded context Sales y como responsable transversal de API bootstrapping, documentación backend y release hygiene. R0obxdnt-bit queda registrado como líder de Catalog Management, mientras que JoaquinVerde115 queda registrado como líder de Warehouse. Cmarin2802 participa en Logistics y documentación de dominio. GerardRojasMancilla participa en Shared Kernel, Persistence e Invoicing.
+La matriz refleja que el avance del sprint no se distribuyó por tareas aisladas, sino por módulos del dominio. `Catalog Management` concentra el catálogo de productos refrigerados, `Sales` soporta solicitudes y órdenes B2B, `Warehouse` cubre disponibilidad e inventario, `IAM` permite la base de autenticación, `Invoicing` prepara la trazabilidad documental y de pagos, `Logistics` organiza el soporte para despacho, y `Shared Kernel` agrupa elementos comunes requeridos por los bounded contexts.
 
 ### 5.2.3.3. Sprint Backlog 3
 
 El Sprint Backlog 3 concentra el trabajo asociado al primer corte AV2 frontend/backend y a la consolidación de la base backend de Nexa Platform. Su objetivo principal fue establecer una base técnica coherente para la primera Web Services API, organizada por bounded contexts, con controladores iniciales, Shared Kernel, patrones de repositorio, Unit of Work, persistencia mediante EF Core/PostgreSQL para el despliegue controlado y trazabilidad de release para revisar la transición desde mocks hacia backend real.
 
-![Sprint Backlog 3 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-3-backlog-jira.png)
+**Evidencia: Sprint Backlog 3 en Jira.**
 
-> *Nota.* La captura evidencia la planificación actualizada del Sprint 3, con 41 actividades visibles, estimación total del sprint, responsables, estados y work-items orientados al cierre AV2 de WebApp, Web Services, Swagger/OpenAPI, PostgreSQL y release. Elaboración propia.
+La imagen presenta el backlog del Sprint 3 registrado en Jira. Su función dentro del informe es sustentar la planificación del incremento AV2, la estimación total del sprint, la distribución de actividades y el cierre de work-items vinculados con WebApp, Web Services, Swagger/OpenAPI, PostgreSQL y release.
+
+![Sprint Backlog 3 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-3-backlog-jira.png)
 
 **URL del board/backlog:** [Jira Backlog — Proyecto Nexa](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
 
@@ -74,7 +78,7 @@ La siguiente tabla presenta los Work-items utilizados para descomponer el Sprint
 | Sprint 3 | N/A | Swagger endpoint validation | TS-NX-003-014 | Validate 25 structured backend endpoints in Swagger | Validar en Swagger/OpenAPI los 25 endpoints HTTP estructurados en backend C# antes de declararlos como alcance cerrado. | Ver Sprint Backlog 3 en Jira | Ver Sprint Backlog 3 en Jira | To Validate |
 | Sprint 3 | N/A | Core frontend-backend flows | TS-NX-003-017 | Preserve core frontend-backend flows for Catalog, Inventory and Orders | Mantener la trazabilidad de los flujos core Catalog, Inventory/Warehouse y Orders/Sales como prioridad de conexión frontend/backend. | Ver Sprint Backlog 3 en Jira | Ver Sprint Backlog 3 en Jira | To Validate |
 
-Nota. El detalle individual de estimación y asignación se respalda en las capturas de Jira incorporadas para Sprint 3. La métrica consolidada del sprint se registra como 213/213 Story Points según el Sprint Backlog 3. Elaboración propia.
+Nota. El detalle individual de estimación y asignación se respalda en las capturas de Jira incorporadas para Sprint 3. La métrica consolidada del sprint se registra como 213/213 horas según el Sprint Backlog 3. Elaboración propia.
 
 ### 5.2.3.4. Development Evidence for Sprint Review
 
@@ -192,21 +196,37 @@ La ejecución se documenta como evidencia técnica del incremento y despliegue c
 
 **Estructura del proyecto backend `nexa-platform`.** Como evidencia complementaria de implementación, se presenta la estructura del proyecto backend desarrollada para AV2. La solución se encuentra organizada por bounded contexts y capas, mostrando los módulos `CatalogManagement`, `Iam`, `Invoicing`, `Logistics`, `Sales`, `Shared` y `Warehouse`, cada uno con `Application`, `Domain`, `Infrastructure` e `Interfaces`. Además, incorpora `Migrations`, `Resources`, archivos `appsettings` y `Program.cs`, confirmando la adopción de DDD y Layered Architecture en la solución.
 
+**Evidencia: estructura backend de `nexa-platform` — parte 1.**
+
+La imagen muestra la primera parte de la estructura del proyecto backend. Permite evidenciar que la Platform API fue organizada con una separación modular y por capas, manteniendo carpetas relacionadas con application, domain, infrastructure e interfaces para sostener una arquitectura basada en DDD.
+
 ![Nexa Platform backend project structure - part 1](../../assets/images/chapter-5/sprint-evidence/nexa-platform-project-structure-1.png)
+
+
+**Evidencia: estructura backend de `nexa-platform` — parte 2.**
+
+La imagen complementa la vista anterior de la solución backend. En conjunto, ambas capturas permiten comprobar la presencia de bounded contexts como Catalog Management, IAM, Invoicing, Logistics, Sales, Warehouse y módulos compartidos requeridos para persistencia, configuración y ejecución de la API.
 
 ![Nexa Platform backend project structure - part 2](../../assets/images/chapter-5/sprint-evidence/nexa-platform-project-structure-2.png)
 
+
+**Evidencia: video de navegación Sprint 3 / AV2.**
+
+La imagen registra una captura del video usado para demostrar la navegación alcanzada en Sprint 3. Esta evidencia respalda la revisión del incremento porque muestra el recorrido de la WebApp por los flujos principales de los segmentos S1, S2 y S3, incluyendo la transición hacia el Buyer Portal.
+
 ![Video de navegación Sprint 3 / AV2](../../assets/images/chapter-5/sprint-evidence/video/sprint-3-navigation-video-screenshot.png)
 
-> *Nota:* El mismo video registrado como evidencia de prototyping en la sección 4.5 se reutiliza como evidencia de navegación del Sprint 3, debido a que muestra el recorrido de la WebApp por los segmentos S1, S2 y S3, incluyendo la transición hacia el Buyer Portal.
+**Evidencia: sign-in de la WebApp desplegada.**
+
+La imagen muestra la pantalla de inicio de sesión de la Web Application ejecutándose desde el entorno desplegado. Esta captura sirve para comprobar que la aplicación frontend está disponible para revisión académica y que forma parte del corte AV2 desplegado en Render.
 
 ![Sign-in de WebApp desplegada](../../assets/images/chapter-5/sprint-evidence/execution/webapp-login-render.png)
 
-> *Nota:* Figura. Sign-in de la Web Application desplegada en Render.
+**Evidencia: catálogo de productos de la WebApp desplegada.**
+
+La imagen evidencia la vista de catálogo de productos dentro de la Web Application desplegada. Su valor es demostrar una pantalla funcional asociada al flujo comercial y de consulta de productos refrigerados, manteniendo trazabilidad con Catalog Management y los escenarios de revisión del Sprint 3.
 
 ![Catálogo de productos de WebApp desplegada](../../assets/images/chapter-5/sprint-evidence/execution/webapp-catalog-render.png)
-
-> *Nota:* Figura. Catálogo de productos de la Web Application desplegada en Render.
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -243,25 +263,35 @@ Note. Endpoint counts distinguish individual HTTP operations from grouped core c
 
 Estos endpoints se encuentran estructurados en backend C# y deben validarse mediante build, ejecución local y Swagger/OpenAPI antes de declararse como alcance cerrado del incremento.
 
+**Evidencia: Swagger/OpenAPI general de Platform API.**
+
+La imagen presenta la documentación general de la Platform API en Swagger/OpenAPI. Esta evidencia permite verificar que la primera versión de Web Services cuenta con documentación navegable y organizada para revisar los recursos REST implementados durante AV2.
+
 ![Swagger/OpenAPI general de Platform API](../../assets/images/chapter-5/sprint-evidence/backend/swagger-openapi-platform-api.png)
 
-> *Nota:* Figura. Swagger/OpenAPI general de la Platform API.
+**Evidencia: endpoints de autenticación en Swagger/OpenAPI.**
+
+La imagen muestra los endpoints de autenticación documentados en Swagger/OpenAPI. Esta evidencia respalda el bounded context IAM, porque permite revisar las operaciones base de sign-in y sign-up preparadas para la autenticación inicial del ecosistema Nexa.
 
 ![Endpoints de autenticación en Swagger/OpenAPI](../../assets/images/chapter-5/sprint-evidence/backend/swagger-authentication.png)
 
-> *Nota:* Figura. Endpoints de autenticación documentados en Swagger/OpenAPI.
+**Evidencia: endpoints de Catalog Items en Swagger/OpenAPI.**
+
+La imagen muestra los endpoints asociados a Catalog Items. Esta captura sustenta el avance del bounded context Catalog Management, encargado de exponer recursos para gestionar o consultar productos refrigerados desde la Platform API.
 
 ![Endpoints de Catalog Items en Swagger/OpenAPI](../../assets/images/chapter-5/sprint-evidence/backend/swagger-catalog-items.png)
 
-> *Nota:* Figura. Endpoints de Catalog Items documentados en Swagger/OpenAPI.
+**Evidencia: endpoints de Inventory Items en Swagger/OpenAPI.**
+
+La imagen presenta los endpoints de Inventory Items documentados en Swagger/OpenAPI. Esta evidencia se relaciona con el bounded context Warehouse, ya que permite validar la base de disponibilidad, inventario y operaciones asociadas al manejo de stock.
 
 ![Endpoints de Inventory Items en Swagger/OpenAPI](../../assets/images/chapter-5/sprint-evidence/backend/swagger-inventory-items.png)
 
-> *Nota:* Figura. Endpoints de Inventory Items documentados en Swagger/OpenAPI.
+**Evidencia: endpoints de Orders en Swagger/OpenAPI.**
+
+La imagen muestra los endpoints de Orders documentados en Swagger/OpenAPI. Esta evidencia respalda el bounded context Sales, porque permite revisar operaciones relacionadas con órdenes comerciales B2B, confirmación, rechazo o cancelación según el alcance inicial del backend.
 
 ![Endpoints de Orders en Swagger/OpenAPI](../../assets/images/chapter-5/sprint-evidence/backend/swagger-orders.png)
-
-> *Nota:* Figura. Endpoints de Orders documentados en Swagger/OpenAPI.
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -278,37 +308,53 @@ La evidencia debe distinguir entre versión preparada para revisión, ejecución
 | Platform API Render deployment | Evidencia incorporada con captura real del servicio Render Platform API. | Documenta el despliegue controlado de la API backend estructurada en C# como primer corte de servicios. | Incorporated |
 | Swagger/OpenAPI URL or capture | Evidencia incorporada con captura real de Swagger/OpenAPI. | Evidencia de documentación de endpoints; no implica operación productiva. | Incorporated |
 
+**Evidencia: vista general del dashboard de Render.**
+
+La imagen presenta el dashboard general de Render utilizado para el despliegue académico de AV2. Su propósito es demostrar que el equipo configuró un entorno de despliegue controlado para revisar los servicios de Nexa sin declarar todavía operación productiva.
+
 ![Vista general del dashboard Render](../../assets/images/chapter-5/sprint-evidence/deployment/render-dashboard-overview.png)
 
-> *Nota:* Figura. Vista general del dashboard de Render usado como evidencia del despliegue académico AV2.
+**Evidencia: servicios Nexa visibles en Render.**
+
+La imagen muestra los servicios de Nexa registrados en Render. Esta evidencia permite identificar, en una sola vista, los componentes desplegados o configurados para el corte AV2, incluyendo WebApp, Platform API y servicios de soporte.
 
 ![Servicios Nexa en Render](../../assets/images/chapter-5/sprint-evidence/deployment/render-nexa-services-overview.png)
 
-> *Nota:* Figura. Servicios de Nexa visibles en Render para revisión académica del corte AV2.
+**Evidencia: servicio Render de la Web Application.**
+
+La imagen presenta el servicio de Render correspondiente a la Web Application. Sirve para comprobar que el frontend cuenta con un servicio desplegado y disponible para revisión del incremento Sprint 3 / AV2.
 
 ![Render WebApp service](../../assets/images/chapter-5/sprint-evidence/deployment/render-webapp-service.png)
 
-> *Nota:* Figura. Servicio Render de la Web Application desplegada.
+**Evidencia: configuración de entorno de la WebApp en Render.**
+
+La imagen muestra la configuración o variables de entorno asociadas al servicio WebApp en Render. Esta evidencia ayuda a sustentar que el despliegue no solo contiene el servicio publicado, sino también parámetros de configuración necesarios para su ejecución controlada.
 
 ![Render WebApp environment](../../assets/images/chapter-5/sprint-evidence/deployment/render-webapp-environment.png)
 
-> *Nota:* Figura. Variables o configuración de entorno del servicio WebApp en Render.
+**Evidencia: servicio Render de la Platform API.**
+
+La imagen presenta el servicio de Render correspondiente a la Platform API. Esta captura respalda el despliegue de la primera versión de Web Services construida con ASP.NET Core y organizada por bounded contexts.
 
 ![Render Platform API service](../../assets/images/chapter-5/sprint-evidence/deployment/render-platform-api-service.png)
 
-> *Nota:* Figura. Servicio Render de la Platform API desplegada.
+**Evidencia: configuración de entorno de la Platform API en Render.**
+
+La imagen muestra la configuración o variables de entorno de la Platform API en Render. Esta evidencia es importante porque sustenta la preparación del backend para conectarse con servicios de infraestructura como PostgreSQL y ejecutarse en un entorno de revisión.
 
 ![Render Platform API environment](../../assets/images/chapter-5/sprint-evidence/deployment/render-platform-api-environment.png)
 
-> *Nota:* Figura. Variables o configuración de entorno de la Platform API en Render.
+**Evidencia: servicio PostgreSQL en Render.**
+
+La imagen presenta el servicio PostgreSQL configurado en Render para el corte AV2. Esta evidencia respalda la transición del backend hacia persistencia real mediante PostgreSQL y EF Core, sin afirmar todavía una base de datos productiva final.
 
 ![Render PostgreSQL service](../../assets/images/chapter-5/sprint-evidence/deployment/render-postgresql-service.png)
 
-> *Nota:* Figura. Servicio PostgreSQL en Render asociado al despliegue académico AV2.
+**Evidencia: Landing Page desplegada en GitHub Pages.**
+
+La imagen muestra el despliegue de la Landing Page en GitHub Pages. Su propósito es sustentar que la nueva versión del sitio público de Nexa se encuentra publicada como parte del cierre AV2 y mantiene continuidad con la Web Application.
 
 ![Landing Page desplegada en GitHub Pages](../../assets/images/chapter-5/sprint-evidence/deployment/github-pages-website-deployment.png)
-
-> *Nota:* Figura. Despliegue de la Landing Page en GitHub Pages.
 
 ### Evidencias visuales pendientes de Sprint 3 / AV2
 
@@ -341,55 +387,79 @@ La siguiente tabla ordena las capturas disponibles y pendientes para respaldar e
 
 > *Nota:* Esta evidencia registra el cierre técnico AV2 disponible para `nexa-website`, `nexa-platform` y `nexa-webapp`. El cierre completo de la entrega mantiene pendientes las evidencias no técnicas de validación, videos, coordinación y revisión AV2.
 
+**Evidencia: GitHub Release `nexa-webapp v2.0.0`.**
+
+La imagen presenta el release `nexa-webapp v2.0.0` en GitHub. Esta evidencia documenta la versión de cierre AV2 de la Web Application y permite relacionar el incremento con una entrega versionada mediante Semantic Versioning.
+
 ![GitHub Release nexa-webapp v2.0.0](../../assets/images/chapter-5/sprint-evidence/releases/nexa-webapp-v2-0-0-release.png)
 
-> *Nota.* La captura muestra el release `nexa-webapp v2.0.0`, utilizado como evidencia de cierre AV2 de la Web Application. Elaboración propia.
+**Evidencia: branches de `nexa-webapp` durante AV2.**
+
+La imagen muestra las ramas del repositorio `nexa-webapp`. Esta evidencia respalda el uso de GitFlow durante el Sprint 3, mostrando la separación de trabajo por ramas y la trazabilidad del release frontend.
 
 ![Branches nexa-webapp AV2](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-webapp-branches.png)
 
-> *Nota:* Figura. Branches de `nexa-webapp` durante el corte AV2.
+**Evidencia: commits recientes de `nexa-webapp` — parte 1.**
+
+La imagen registra una primera vista de commits recientes del repositorio `nexa-webapp`. Su función es evidenciar la colaboración técnica y los cambios realizados en la Web Application durante el corte AV2.
 
 ![Commits recientes nexa-webapp AV2 - parte 1](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-1.png)
 
-> *Nota:* Figura. Commits recientes de `nexa-webapp` para el release `v2.0.0`, parte 1.
+**Evidencia: commits recientes de `nexa-webapp` — parte 2.**
+
+La imagen complementa la evidencia anterior con más commits recientes del repositorio `nexa-webapp`. En conjunto, ambas capturas respaldan la continuidad del trabajo frontend y la preparación del release `v2.0.0`.
 
 ![Commits recientes nexa-webapp AV2 - parte 2](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-2.png)
 
-> *Nota:* Figura. Commits recientes de `nexa-webapp` para el release `v2.0.0`, parte 2.
-
 El rastro de releases de WebApp se interpreta de forma incremental: `v1.7.1` queda como patch AV2 previo, `v1.8.0` registra cleanup y layout polish, y `v2.0.0` queda como release de cierre actual de WebApp para el corte AV2.
+
+**Evidencia: GitHub Release `nexa-website v3.0.0`.**
+
+La imagen presenta el release `nexa-website v3.0.0`. Esta evidencia sustenta la versión de cierre AV2 de la Landing Page y permite vincular las mejoras del sitio público con una entrega formal versionada.
 
 ![GitHub Release nexa-website v3.0.0](../../assets/images/chapter-5/sprint-evidence/releases/nexa-website-v3-0-0-release.png)
 
-> *Nota:* Figura. Release de cierre AV2 disponible para revisión de `nexa-website v3.0.0`.
+**Evidencia: branches de `nexa-website` durante AV2.**
+
+La imagen muestra las ramas del repositorio `nexa-website`. Esta captura permite evidenciar el flujo de trabajo aplicado para la Landing Page y la organización de ramas durante el cierre AV2.
 
 ![Branches de nexa-website](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-website-branches.png)
 
-> *Nota:* Figura. Branches de `nexa-website` durante el corte AV2.
+**Evidencia: commits recientes de `nexa-website`.**
+
+La imagen registra commits recientes del repositorio `nexa-website`. Su propósito es demostrar actividad de implementación y ajustes del sitio público durante el Sprint 3.
 
 ![Commits recientes AV2 de nexa-website](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-recent.png)
 
-> *Nota:* Figura. Commits recientes de `nexa-website` para el corte AV2.
+**Evidencia: commits históricos de cierre AV2 de `nexa-website`.**
+
+La imagen presenta commits históricos relacionados con el cierre AV2 de `nexa-website`. Esta evidencia complementa los commits recientes y ayuda a demostrar continuidad en la evolución de la Landing Page.
 
 ![Commits históricos de cierre AV2 de nexa-website](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-history.png)
 
-> *Nota:* Figura. Commits históricos de cierre AV2 de `nexa-website`.
+**Evidencia: GitHub Release `nexa-platform v1.0.0`.**
+
+La imagen muestra el release `nexa-platform v1.0.0`. Esta evidencia es central para Sprint 3 porque documenta la primera versión de Web Services disponible para revisión AV2.
 
 ![GitHub Release nexa-platform v1.0.0](../../assets/images/chapter-5/sprint-evidence/releases/nexa-platform-v1-0-0-release.png)
 
-> *Nota:* Figura. Release de cierre AV2 disponible para revisión de `nexa-platform v1.0.0`.
+**Evidencia: branches de `nexa-platform` durante AV2.**
+
+La imagen muestra las ramas del repositorio `nexa-platform`. Esta evidencia permite sustentar la organización GitFlow del backend, incluyendo ramas asociadas a integración, bounded contexts y preparación del release.
 
 ![Branches de nexa-platform](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-platform-branches.png)
 
-> *Nota:* Figura. Branches de `nexa-platform` durante el corte AV2.
+**Evidencia: commits recientes de `nexa-platform`.**
+
+La imagen registra commits recientes del repositorio `nexa-platform`. Su función es demostrar actividad de implementación backend durante el Sprint 3, especialmente en la construcción de la Platform API.
 
 ![Commits recientes AV2 de nexa-platform](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-recent.png)
 
-> *Nota:* Figura. Commits recientes de `nexa-platform` para el corte AV2.
+**Evidencia: commits por bounded context de `nexa-platform`.**
+
+La imagen muestra commits organizados por bounded context o ramas de integración del backend. Esta evidencia respalda que la colaboración técnica de Sprint 3 se distribuyó alrededor de Catalog Management, Sales, Warehouse y otros contextos de la Platform API.
 
 ![Commits por bounded context de nexa-platform](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-contexts.png)
-
-> *Nota:* Figura. Commits por bounded context de `nexa-platform`.
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -397,13 +467,17 @@ La colaboración del Sprint 3 se estructuró por bounded context, preparación d
 
 El flujo de trabajo permitió organizar responsabilidades backend alrededor de ramas por bounded context y capa, incluyendo `main`, `develop`, commits de persistencia/PostgreSQL, documentación de repositorio, seguridad, comunidad y el tag `v1.0.0` como release disponible para revisión AV2.
 
+**Evidencia: tablero Sprint 3 en Jira.**
+
+La imagen presenta el tablero de Jira del Sprint 3. Esta evidencia permite observar el flujo de trabajo del equipo por estados y comprobar que las actividades del incremento AV2 fueron monitoreadas durante la ejecución del sprint.
+
 ![Tablero Sprint 3 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-3-board-jira.png)
 
-> *Nota.* El tablero de Jira muestra la distribución del trabajo del Sprint 3 por estados del flujo de trabajo, permitiendo observar el seguimiento operativo de las actividades del incremento AV2. Elaboración propia.
+**Evidencia: seguimiento de tareas Sprint 3 en Jira.**
+
+La imagen muestra el detalle de seguimiento de tareas en Jira, incluyendo responsables, informadores, prioridad, estado, resolución y fechas de actualización. Esta evidencia refuerza la trazabilidad del trabajo colaborativo y del cierre operativo del Sprint 3.
 
 ![Seguimiento de tareas Sprint 3 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-3-task-status-jira.png)
-
-> *Nota.* La vista de seguimiento de tareas muestra responsables, informadores, prioridad, estado, resolución y fechas de actualización, reforzando la trazabilidad del trabajo realizado durante Sprint 3. Elaboración propia.
 
 | Frente | Organización del trabajo | Resultado esperado |
 |---|---|---|
