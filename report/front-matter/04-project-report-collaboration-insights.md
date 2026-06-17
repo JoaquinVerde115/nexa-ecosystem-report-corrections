@@ -10,14 +10,14 @@ El trabajo del equipo se organizó en una organización pública de GitHub, sepa
 
 | Recurso | URL | Propósito |
 |---|---|---|
-| Organización GitHub del equipo KING | [https://github.com/upc-pre-202610-1asi0730-12242-king](https://github.com/upc-pre-202610-1asi0730-12242-king) | Agrupar los repositorios oficiales del proyecto Nexa. |
-| Repositorio del Project Report | [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report) | Mantener el informe académico en formato Markdown bajo enfoque Docs-as-Code. |
-| Repositorio de la Landing Page | [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website) | Contener el sitio público de Nexa y sus evidencias asociadas. |
-| Repositorio de la Web Application | [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp) | Contener la aplicación web frontend desarrollada para los flujos principales del producto. |
-| Repositorio de Web Services | [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-platform](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-platform) | Contener la primera versión de servicios backend de Nexa Platform documentada para AV2. |
-| Landing Page | [https://upc-pre-202610-1asi0730-12242-king.github.io/nexa-website/](https://upc-pre-202610-1asi0730-12242-king.github.io/nexa-website/) | Evidencia pública del sitio de presentación del producto. |
-| Web Application | [https://nexa-webapp.onrender.com](https://nexa-webapp.onrender.com) | Evidencia pública de la Web Application desplegada en Render para revisión académica. |
-| Platform API | [https://nexa-platform-api.onrender.com](https://nexa-platform-api.onrender.com) | Evidencia pública del despliegue controlado de la API en Render para AV2. |
+| Organización GitHub del equipo KING | **https://github.com/upc-pre-202610-1asi0730-12242-king:** [https://github.com/upc-pre-202610-1asi0730-12242-king](https://github.com/upc-pre-202610-1asi0730-12242-king) | Agrupar los repositorios oficiales del proyecto Nexa. |
+| Repositorio del Project Report | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report:** [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report) | Mantener el informe académico en formato Markdown bajo enfoque Docs-as-Code. |
+| Repositorio de la Landing Page | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website:** [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website) | Contener el sitio público de Nexa y sus evidencias asociadas. |
+| Repositorio de la Web Application | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp:** [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp) | Contener la aplicación web frontend desarrollada para los flujos principales del producto. |
+| Repositorio de Web Services | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-platform:** [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-platform](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-platform) | Contener la primera versión de servicios backend de Nexa Platform documentada para AV2. |
+| Landing Page | **https://upc-pre-202610-1asi0730-12242-king.github.io/nexa-website/:** [https://upc-pre-202610-1asi0730-12242-king.github.io/nexa-website/](https://upc-pre-202610-1asi0730-12242-king.github.io/nexa-website/) | Evidencia pública del sitio de presentación del producto. |
+| Web Application | **https://nexa-webapp.onrender.com:** [https://nexa-webapp.onrender.com](https://nexa-webapp.onrender.com) | Evidencia pública de la Web Application desplegada en Render para revisión académica. |
+| Platform API | **https://nexa-platform-api.onrender.com:** [https://nexa-platform-api.onrender.com](https://nexa-platform-api.onrender.com) | Evidencia pública del despliegue controlado de la API en Render para AV2. |
 
 ### Releases auditados para AV2
 
@@ -32,7 +32,7 @@ El trabajo del equipo se organizó en una organización pública de GitHub, sepa
 
 ### Evidencia principal del Project Report
 
-El repositorio principal del informe es [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report). Para el cierre AV2, `nexa-ecosystem-report v3.0.0` consolida la versión documental del reporte académico. Los commits recientes evidencian la preparación del informe, ajustes de formato académico, version history, anexos, validación documental, evidencias de Sprint 3 y preparación del PDF. Las branches `main` y `develop` evidencian el flujo GitFlow documental, mientras que los insights muestran actividad colaborativa del equipo en el repositorio del informe.
+El repositorio principal del informe es **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report:** [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report). Para el cierre AV2, `nexa-ecosystem-report v3.0.0` consolida la versión documental del reporte académico. Los commits recientes evidencian la preparación del informe, ajustes de formato académico, version history, anexos, validación documental, evidencias de Sprint 3 y preparación del PDF. Las branches `main` y `develop` evidencian el flujo GitFlow documental, mientras que los insights muestran actividad colaborativa del equipo en el repositorio del informe.
 
 ![GitHub Release nexa-ecosystem-report v3.0.0](../assets/images/front-matter/collaboration/report-releases/nexa-ecosystem-report-v3-0-0-release.png)
 
@@ -68,7 +68,7 @@ Los repositorios `nexa-website`, `nexa-platform` y `nexa-webapp` se mantienen co
 
 ### Despliegues AV2
 
-Para AV2, `nexa-webapp` se registra como Web Application desplegada en Render mediante [https://nexa-webapp.onrender.com](https://nexa-webapp.onrender.com). Asimismo, `nexa-platform` registra una Platform API desplegada en Render mediante [https://nexa-platform-api.onrender.com](https://nexa-platform-api.onrender.com). En el backend, la auditoría final evidencia una evolución de la configuración de persistencia hacia PostgreSQL con el objetivo de soportar el despliegue controlado en Render.
+Para AV2, `nexa-webapp` se registra como Web Application desplegada en Render mediante **https://nexa-webapp.onrender.com:** [https://nexa-webapp.onrender.com](https://nexa-webapp.onrender.com). Asimismo, `nexa-platform` registra una Platform API desplegada en Render mediante **https://nexa-platform-api.onrender.com:** [https://nexa-platform-api.onrender.com](https://nexa-platform-api.onrender.com). En el backend, la auditoría final evidencia una evolución de la configuración de persistencia hacia PostgreSQL con el objetivo de soportar el despliegue controlado en Render.
 
 Esta migración se documenta como parte del corte académico AV2 y no implica declarar operación productiva ni validación cerrada con usuarios. La evidencia visual específica de Render, Swagger y releases ya se encuentra incorporada en Sprint 3 y anexos; las evidencias no técnicas permanecen como pendientes controlados.
 
@@ -216,7 +216,7 @@ Figura. Product Backlog en Jira utilizado como evidencia de planificación y seg
 
 Figura. Tablero Jira del Sprint 3 / AV2 utilizado como evidencia de planificación, seguimiento y distribución del trabajo durante el cierre AV2. Elaboración propia.
 
-**URL del board/backlog:** [Jira Backlog — Proyecto Nexa](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
+**URL del board/backlog:** **Jira Backlog — Proyecto Nexa:** [https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
 
 ### Colaboración acumulada por entrega
 
