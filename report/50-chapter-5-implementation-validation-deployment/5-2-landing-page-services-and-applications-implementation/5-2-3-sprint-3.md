@@ -56,9 +56,9 @@ La imagen presenta el backlog del Sprint 3 registrado en Jira. Su función dentr
 
 ![Sprint Backlog 3 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-3-backlog-jira.png)
 
-> *Nota.* La captura evidencia la planificación actualizada del Sprint 3, con actividades visibles, estimación total del sprint, responsables, estados y work-items orientados al cierre AV2 de WebApp, Web Services, Swagger/OpenAPI, PostgreSQL y release. Elaboración propia.
+> *Nota:* La captura evidencia la planificación actualizada del Sprint 3, con actividades visibles, estimación total del sprint, responsables, estados y work-items orientados al cierre AV2 de WebApp, Web Services, Swagger/OpenAPI, PostgreSQL y release. Elaboración propia.
 
-**URL del board/backlog:** [Jira Backlog — Proyecto Nexa](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
+**URL del board/backlog Jira — Proyecto Nexa:** [https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
 
 La siguiente tabla presenta los Work-items utilizados para descomponer el Sprint 3. Los identificadores se mantienen como trazabilidad documental del cierre AV2 registrado en Jira.
 
@@ -194,7 +194,7 @@ La ejecución se documenta como evidencia técnica del incremento y despliegue c
 | Platform API Render | Evidencia incorporada: servicio Render de Platform API y documentación Swagger/OpenAPI desplegada. | Verifica despliegue controlado de la Platform API para revisión académica. | Incorporated |
 | Swagger/OpenAPI | Evidencia incorporada: captura general de Swagger/OpenAPI y endpoints priorizados. | Permite validar documentación de endpoints del backend. | Incorporated |
 | Core flows prepared for validation | Evidencia incorporada parcialmente mediante capturas de login, catálogo, video de navegación, Swagger/OpenAPI y despliegues Render. | Registra flujos core priorizados para conexión frontend/backend sin declarar cobertura total. | Partially incorporated |
-| Video de navegación Sprint 3 / AV2 | Video: `upc-pre-202610-1asi0730-12242-nexa-webapp-prototype-sprint-3`. URL: [Microsoft Stream / SharePoint](https://upcedupe-my.sharepoint.com/personal/u202416289_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416289%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202610%2D%201asi0730%2D12242%2Dking%2Fnexa%2Dprototype%2Fupc%2Dpre%2D202610%2D1asi0730%2D12242%2Dnexa%2Dwebbapp%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E739e15be%2D2efd%2D49c4%2Da343%2D4cb5d8cab16a). Duración: `6:46`. S2: `1:44`. S3: `3:49`. | Demostrar la navegación lograda durante Sprint 3 y respaldar la revisión del incremento AV2. | Incorporated |
+| Video de navegación Sprint 3 / AV2 | Video: `upc-pre-202610-1asi0730-12242-nexa-webapp-prototype-sprint-3`. URL: **Microsoft Stream / SharePoint:** [https://upcedupe-my.sharepoint.com/personal/u202416289_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416289%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202610%2D%201asi0730%2D12242%2Dking%2Fnexa%2Dprototype%2Fupc%2Dpre%2D202610%2D1asi0730%2D12242%2Dnexa%2Dwebbapp%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E739e15be%2D2efd%2D49c4%2Da343%2D4cb5d8cab16a](https://upcedupe-my.sharepoint.com/personal/u202416289_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416289%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202610%2D%201asi0730%2D12242%2Dking%2Fnexa%2Dprototype%2Fupc%2Dpre%2D202610%2D1asi0730%2D12242%2Dnexa%2Dwebbapp%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E739e15be%2D2efd%2D49c4%2Da343%2D4cb5d8cab16a). Duración: `6:46`. S2: `1:44`. S3: `3:49`. | Demostrar la navegación lograda durante Sprint 3 y respaldar la revisión del incremento AV2. | Incorporated |
 
 **Estructura del proyecto backend `nexa-platform`.** Como evidencia complementaria de implementación, se presenta la estructura del proyecto backend desarrollada para AV2. La solución se encuentra organizada por bounded contexts y capas, mostrando los módulos `CatalogManagement`, `Iam`, `Invoicing`, `Logistics`, `Sales`, `Shared` y `Warehouse`, cada uno con `Application`, `Domain`, `Infrastructure` e `Interfaces`. Además, incorpora `Migrations`, `Resources`, archivos `appsettings` y `Program.cs`, confirmando la adopción de DDD y Layered Architecture en la solución.
 
@@ -204,7 +204,7 @@ La imagen muestra la primera parte de la estructura del proyecto backend. Permit
 
 ![Nexa Platform backend project structure - part 1](../../assets/images/chapter-5/sprint-evidence/nexa-platform-project-structure-1.png)
 
-> *Nota.* La captura muestra la organización inicial del proyecto `nexa-platform`, incluyendo bounded contexts y capas técnicas utilizadas para la primera versión de Web Services. Elaboración propia.
+> *Nota:* La captura muestra la organización inicial del proyecto `nexa-platform`, incluyendo bounded contexts y capas técnicas utilizadas para la primera versión de Web Services. Elaboración propia.
 
 **Evidencia: Estructura backend de `nexa-platform` — parte 2.**
 
@@ -212,7 +212,7 @@ La imagen complementa la vista anterior de la solución backend. En conjunto, am
 
 ![Nexa Platform backend project structure - part 2](../../assets/images/chapter-5/sprint-evidence/nexa-platform-project-structure-2.png)
 
-> *Nota.* La captura complementa la evidencia de organización backend y permite observar módulos, archivos de configuración, migraciones y elementos de soporte de la Platform API. Elaboración propia.
+> *Nota:* La captura complementa la evidencia de organización backend y permite observar módulos, archivos de configuración, migraciones y elementos de soporte de la Platform API. Elaboración propia.
 
 **Evidencia: Video de navegación Sprint 3 / AV2.**
 
@@ -236,7 +236,7 @@ La imagen muestra la vista de catálogo dentro de la Web Application desplegada.
 
 ![Catálogo de productos de WebApp desplegada](../../assets/images/chapter-5/sprint-evidence/execution/webapp-catalog-render.png)
 
-> *Nota.* La captura muestra el catálogo de productos de la Web Application desplegada en Render. Elaboración propia.
+> *Nota:* La captura muestra el catálogo de productos de la Web Application desplegada en Render. Elaboración propia.
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -257,7 +257,7 @@ La documentación de servicios del Sprint 3 se alinea con el Final Project State
 | Current core business endpoints | Catalog Management, Warehouse and Sales HTTP operations. | 15 | To Validate |
 | Core endpoints with IAM access | Core business endpoints plus sign-in/sign-up operations. | 17 | To Validate |
 
-Note. Endpoint counts distinguish individual HTTP operations from grouped core capabilities. The Sprint 3 report documents the current backend foundation and does not declare full roadmap coverage, production deployment, complete Web Application integration or complete replacement of simulated frontend services.
+> *Note:* Endpoint counts distinguish individual HTTP operations from grouped core capabilities. The Sprint 3 report documents the current backend foundation and does not declare full roadmap coverage, production deployment, complete Web Application integration or complete replacement of simulated frontend services.
 
 *Currently structured backend endpoints*
 
@@ -287,7 +287,7 @@ La imagen presenta los endpoints asociados a autenticación. Esta evidencia resp
 
 ![Endpoints de autenticación en Swagger/OpenAPI](../../assets/images/chapter-5/sprint-evidence/backend/swagger-authentication.png)
 
-> *Nota.* La captura muestra los endpoints de autenticación documentados en Swagger/OpenAPI como parte de la base IAM del backend. Elaboración propia.
+> *Nota:*  La captura muestra los endpoints de autenticación documentados en Swagger/OpenAPI como parte de la base IAM del backend. Elaboración propia.
 
 **Evidencia: Endpoints de Catalog Items en Swagger/OpenAPI.**
 
@@ -295,7 +295,7 @@ La imagen presenta los endpoints del recurso `Catalog Items`. Esta evidencia se 
 
 ![Endpoints de Catalog Items en Swagger/OpenAPI](../../assets/images/chapter-5/sprint-evidence/backend/swagger-catalog-items.png)
 
-> *Nota.* La captura muestra los endpoints de Catalog Items documentados en Swagger/OpenAPI para el bounded context Catalog Management. Elaboración propia.
+> *Nota:*  La captura muestra los endpoints de Catalog Items documentados en Swagger/OpenAPI para el bounded context Catalog Management. Elaboración propia.
 
 **Evidencia: Endpoints de Inventory Items en Swagger/OpenAPI.**
 
@@ -311,7 +311,7 @@ La imagen presenta los endpoints del recurso `Orders`. Esta evidencia se relacio
 
 ![Endpoints de Orders en Swagger/OpenAPI](../../assets/images/chapter-5/sprint-evidence/backend/swagger-orders.png)
 
-> *Nota.* La captura muestra los endpoints de Orders documentados en Swagger/OpenAPI para el bounded context Sales. Elaboración propia.
+> *Nota:*  La captura muestra los endpoints de Orders documentados en Swagger/OpenAPI para el bounded context Sales. Elaboración propia.
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -350,7 +350,7 @@ La imagen evidencia el servicio de Render asociado a la Web Application. Esta ca
 
 ![Render WebApp service](../../assets/images/chapter-5/sprint-evidence/deployment/render-webapp-service.png)
 
-> *Nota.* La captura muestra el servicio Render de la Web Application desplegada para revisión académica AV2. Elaboración propia.
+> *Nota:*  La captura muestra el servicio Render de la Web Application desplegada para revisión académica AV2. Elaboración propia.
 
 **Evidencia: Configuración de entorno de la WebApp en Render.**
 
@@ -358,7 +358,7 @@ La imagen muestra la configuración de entorno asociada al servicio WebApp en Re
 
 ![Render WebApp environment](../../assets/images/chapter-5/sprint-evidence/deployment/render-webapp-environment.png)
 
-> *Nota.* La captura muestra la configuración de entorno del servicio WebApp en Render. Elaboración propia.
+> *Nota:*  La captura muestra la configuración de entorno del servicio WebApp en Render. Elaboración propia.
 
 **Evidencia: Servicio Render de la Platform API.**
 
@@ -374,7 +374,7 @@ La imagen muestra la configuración de entorno del servicio Platform API en Rend
 
 ![Render Platform API environment](../../assets/images/chapter-5/sprint-evidence/deployment/render-platform-api-environment.png)
 
-> *Nota.* La captura muestra variables o configuración de entorno de la Platform API en Render. Elaboración propia.
+> *Nota:*  La captura muestra variables o configuración de entorno de la Platform API en Render. Elaboración propia.
 
 **Evidencia: Servicio PostgreSQL en Render.**
 
@@ -382,7 +382,7 @@ La imagen presenta el servicio PostgreSQL configurado en Render. Esta evidencia 
 
 ![Render PostgreSQL service](../../assets/images/chapter-5/sprint-evidence/deployment/render-postgresql-service.png)
 
-> *Nota.* La captura muestra el servicio PostgreSQL en Render asociado al despliegue académico AV2. Elaboración propia.
+> *Nota:*  La captura muestra el servicio PostgreSQL en Render asociado al despliegue académico AV2. Elaboración propia.
 
 **Evidencia: Landing Page desplegada en GitHub Pages.**
 
@@ -390,7 +390,7 @@ La imagen evidencia el despliegue de la Landing Page mediante GitHub Pages. Esta
 
 ![Landing Page desplegada en GitHub Pages](../../assets/images/chapter-5/sprint-evidence/deployment/github-pages-website-deployment.png)
 
-> *Nota.* La captura muestra el despliegue de la Landing Page en GitHub Pages para el corte AV2. Elaboración propia.
+> *Nota:* La captura muestra el despliegue de la Landing Page en GitHub Pages para el corte AV2. Elaboración propia.
 
 ### Evidencias visuales pendientes de Sprint 3 / AV2
 
@@ -429,7 +429,7 @@ La imagen muestra el release de cierre AV2 de la Web Application. Esta evidencia
 
 ![GitHub Release nexa-webapp v2.0.0](../../assets/images/chapter-5/sprint-evidence/releases/nexa-webapp-v2-0-0-release.png)
 
-> *Nota.* La captura muestra el release `nexa-webapp v2.0.0`, utilizado como evidencia de cierre AV2 de la Web Application. Elaboración propia.
+> *Nota:* La captura muestra el release `nexa-webapp v2.0.0`, utilizado como evidencia de cierre AV2 de la Web Application. Elaboración propia.
 
 **Evidencia: Branches de `nexa-webapp` durante AV2.**
 
@@ -437,7 +437,7 @@ La imagen presenta las ramas visibles del repositorio `nexa-webapp`. Esta eviden
 
 ![Branches nexa-webapp AV2](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-webapp-branches.png)
 
-> *Nota.* La captura muestra las branches de `nexa-webapp` utilizadas durante el corte AV2. Elaboración propia.
+> *Nota:* La captura muestra las branches de `nexa-webapp` utilizadas durante el corte AV2. Elaboración propia.
 
 **Evidencia: Commits recientes de `nexa-webapp` — parte 1.**
 
@@ -445,7 +445,7 @@ La imagen muestra una primera vista de commits recientes del repositorio `nexa-w
 
 ![Commits recientes nexa-webapp AV2 - parte 1](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-1.png)
 
-> *Nota.* La captura muestra commits recientes de `nexa-webapp` asociados al release `v2.0.0`, parte 1. Elaboración propia.
+> *Nota:* La captura muestra commits recientes de `nexa-webapp` asociados al release `v2.0.0`, parte 1. Elaboración propia.
 
 **Evidencia: Commits recientes de `nexa-webapp` — parte 2.**
 
@@ -453,7 +453,7 @@ La imagen complementa la evidencia de commits recientes de `nexa-webapp`. Permit
 
 ![Commits recientes nexa-webapp AV2 - parte 2](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-2.png)
 
-> *Nota.* La captura muestra commits recientes de `nexa-webapp` asociados al release `v2.0.0`, parte 2. Elaboración propia.
+> *Nota:* La captura muestra commits recientes de `nexa-webapp` asociados al release `v2.0.0`, parte 2. Elaboración propia.
 
 El rastro de releases de WebApp se interpreta de forma incremental: `v1.7.1` queda como patch AV2 previo, `v1.8.0` registra cleanup y layout polish, y `v2.0.0` queda como release de cierre actual de WebApp para el corte AV2.
 
@@ -463,7 +463,7 @@ La imagen muestra el release de cierre AV2 de la Landing Page. Esta evidencia su
 
 ![GitHub Release nexa-website v3.0.0](../../assets/images/chapter-5/sprint-evidence/releases/nexa-website-v3-0-0-release.png)
 
-> *Nota.* La captura muestra el release de cierre AV2 disponible para revisión de `nexa-website v3.0.0`. Elaboración propia.
+> *Nota:* La captura muestra el release de cierre AV2 disponible para revisión de `nexa-website v3.0.0`. Elaboración propia.
 
 **Evidencia: Branches de `nexa-website` durante AV2.**
 
@@ -471,7 +471,7 @@ La imagen presenta las ramas visibles del repositorio `nexa-website`. Esta evide
 
 ![Branches de nexa-website](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-website-branches.png)
 
-> *Nota.* La captura muestra las branches de `nexa-website` utilizadas durante el corte AV2. Elaboración propia.
+> *Nota:* La captura muestra las branches de `nexa-website` utilizadas durante el corte AV2. Elaboración propia.
 
 **Evidencia: Commits recientes de `nexa-website`.**
 
@@ -479,7 +479,7 @@ La imagen muestra commits recientes del repositorio `nexa-website`. Esta evidenc
 
 ![Commits recientes AV2 de nexa-website](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-recent.png)
 
-> *Nota.* La captura muestra commits recientes de `nexa-website` asociados al corte AV2. Elaboración propia.
+> *Nota:* La captura muestra commits recientes de `nexa-website` asociados al corte AV2. Elaboración propia.
 
 **Evidencia: Commits históricos de cierre AV2 de `nexa-website`.**
 
@@ -487,7 +487,7 @@ La imagen complementa la evidencia de colaboración en el repositorio `nexa-webs
 
 ![Commits históricos de cierre AV2 de nexa-website](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-history.png)
 
-> *Nota.* La captura muestra commits históricos de cierre AV2 de `nexa-website`. Elaboración propia.
+> *Nota:* La captura muestra commits históricos de cierre AV2 de `nexa-website`. Elaboración propia.
 
 **Evidencia: GitHub Release `nexa-platform v1.0.0`.**
 
@@ -495,7 +495,7 @@ La imagen muestra el release de cierre AV2 de la Platform API. Esta evidencia pe
 
 ![GitHub Release nexa-platform v1.0.0](../../assets/images/chapter-5/sprint-evidence/releases/nexa-platform-v1-0-0-release.png)
 
-> *Nota.* La captura muestra el release de cierre AV2 disponible para revisión de `nexa-platform v1.0.0`. Elaboración propia.
+> *Nota:* La captura muestra el release de cierre AV2 disponible para revisión de `nexa-platform v1.0.0`. Elaboración propia.
 
 **Evidencia: Branches de `nexa-platform` durante AV2.**
 
@@ -503,7 +503,7 @@ La imagen presenta las ramas visibles del repositorio `nexa-platform`. Esta evid
 
 ![Branches de nexa-platform](../../assets/images/chapter-5/sprint-evidence/gitflow/nexa-platform-branches.png)
 
-> *Nota.* La captura muestra las branches de `nexa-platform` utilizadas durante el corte AV2. Elaboración propia.
+> *Nota:* La captura muestra las branches de `nexa-platform` utilizadas durante el corte AV2. Elaboración propia.
 
 **Evidencia: Commits recientes de `nexa-platform`.**
 
@@ -511,7 +511,7 @@ La imagen muestra commits recientes del repositorio `nexa-platform`. Esta eviden
 
 ![Commits recientes AV2 de nexa-platform](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-recent.png)
 
-> *Nota.* La captura muestra commits recientes de `nexa-platform` asociados al corte AV2. Elaboración propia.
+> *Nota:* La captura muestra commits recientes de `nexa-platform` asociados al corte AV2. Elaboración propia.
 
 **Evidencia: Commits por bounded context de `nexa-platform`.**
 
@@ -519,7 +519,7 @@ La imagen evidencia commits organizados por bounded context o ramas de integraci
 
 ![Commits por bounded context de nexa-platform](../../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-contexts.png)
 
-> *Nota.* La captura muestra commits por bounded context de `nexa-platform`, reforzando la trazabilidad de colaboración modular del Sprint 3. Elaboración propia.
+> *Nota:* La captura muestra commits por bounded context de `nexa-platform`, reforzando la trazabilidad de colaboración modular del Sprint 3. Elaboración propia.
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -533,7 +533,7 @@ La imagen muestra el tablero de trabajo del Sprint 3 en Jira. Esta evidencia per
 
 ![Tablero Sprint 3 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-3-board-jira.png)
 
-> *Nota.* El tablero de Jira muestra la distribución del trabajo del Sprint 3 por estados del flujo de trabajo, permitiendo observar el seguimiento operativo de las actividades del incremento AV2. Elaboración propia.
+> *Nota:* El tablero de Jira muestra la distribución del trabajo del Sprint 3 por estados del flujo de trabajo, permitiendo observar el seguimiento operativo de las actividades del incremento AV2. Elaboración propia.
 
 **Evidencia: Seguimiento de tareas Sprint 3 en Jira.**
 
@@ -541,7 +541,7 @@ La imagen presenta una vista de seguimiento de tareas del Sprint 3. Esta evidenc
 
 ![Seguimiento de tareas Sprint 3 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-3-task-status-jira.png)
 
-> *Nota.* La vista de seguimiento de tareas muestra responsables, informadores, prioridad, estado, resolución y fechas de actualización, reforzando la trazabilidad del trabajo realizado durante Sprint 3. Elaboración propia.
+> *Nota:* La vista de seguimiento de tareas muestra responsables, informadores, prioridad, estado, resolución y fechas de actualización, reforzando la trazabilidad del trabajo realizado durante Sprint 3. Elaboración propia.
 
 | Frente | Organización del trabajo | Resultado esperado |
 |---|---|---|
