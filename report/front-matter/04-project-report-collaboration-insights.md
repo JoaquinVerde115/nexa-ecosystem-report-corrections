@@ -261,3 +261,6 @@ Figura. Trabajo colaborativo del equipo KING durante el Sprint 3. Elaboración p
 
 Figura. Trabajo colaborativo del equipo KING durante el Sprint 3. Elaboración propia.
 
+![Práctica de exposición AV2](../assets/images/front-matter/collaboration/sprint-3-expo-av2.png)
+
+Figura. Práctica de exposición y preparación de la sustentación AV2 del equipo KING. Elaboración propia.
