@@ -1,4 +1,4 @@
-# Annex F: AV2 Pending and Controlled Evidence
+# Annex F: AV2 Controlled Evidence
 
 Este anexo centraliza únicamente pendientes reales que todavía no cuentan con evidencia verificable en el corte AV2. No se registran enlaces, capturas, entrevistas, resultados ni publicaciones que no existan.
 
