@@ -171,4 +171,16 @@ Escala de severidad:
 | Ayuda para reconocer, diagnosticar y recuperarse de errores | El usuario entiende mensajes, incidencias o estados problemáticos y cómo resolverlos | Despliegue de mensajes informativos ante campos vacíos o formatos erróneos.Gracias al lenguaje claro y humano del sistema. | Ante simulaciones de campos incompletos, el usuario comprendió inmediatamente el mensaje de error contextual y lo solucionó. | 0 | Mantener el formato instructivo y claro de los mensajes de validación. |
 | Ayuda y documentación | El flujo ofrece soporte casi suficiente para comprender acciones, documentos, estados y próximos pasos | Registro del cierre de la entrevista donde se consulta la necesidad de soporte. El párrafo de control concluye que la autoexplicación de la interfaz hace  casi innecesaria la consulta de manuales o guías anexas. pero sugiere que una indicación visual para volver al catálogo le habría brindado mayor tranquilidad para continuar explorando sin temor a perder su avance.  | El usuario manifiesta que durante el trámite de compra e ingreso de datos, echa en falta un botón directo o asistencia visual para regresar de forma ágil a la tienda principal en caso de querer agregar más productos a último momento, lo que genera una ligera duda sobre si se perderá el progreso de su carrito actual. | 1   | Evaluar la adición de un enlace sutil de retorno o configurar el sistema para que, si el usuario decide consultar la tienda, esta se abra en una ventana aparte, garantizando así que no se pierdan los cambios realizados en el carrito de compras. |
 
-La evaluación de hallazgos se completará cuando existan entrevistas registradas y evidencia verificable asociada a cada segmento. Hasta ese momento, esta matriz funciona como instrumento académico de preparación y no como resultado de validación ejecutada.
+#### DESCRIPCIÓN DE PROBLEMA:
+
+**Problema #1:** No hay un control visual que permita regresar a la tienda durante el trámite de compra 
+
+**Severidad:** 1
+
+**Heurística Violada:** Usabilidad - Libertad y control del usuario 
+
+**Problema:** Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso de que así se requiera. Una vez el cliente pase al trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envíe al inicio de la web, lo cual nos obliga a efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.
+
+![Alonso](../assets/images/chapter-5/interviews/alonso-alcantara.png)
+
+**Recomendación:** La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para no perder los cambios realizados en nuestro carrito de compras. 
