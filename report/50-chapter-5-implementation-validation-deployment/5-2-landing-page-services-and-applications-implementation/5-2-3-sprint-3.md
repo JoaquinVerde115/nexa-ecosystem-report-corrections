@@ -36,10 +36,10 @@ La ejecución del Sprint 3 se organizó por bounded contexts, porque el incremen
 | Team Member | GitHub Username | Catalog Management | Sales | Warehouse | IAM | Invoicing | Logistics | Shared Kernel |
 |---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Yucra Sandoval, Diego Sebastian | DiegoS284 | C | L | C | L | C | C | C |
-| Verde Bueno, Joaquín Francisco | JoaquinVerde115 | C | C | L | C | C | C | C |
-| Marín Cueva, César Fernando | Cmarin2802 | - | C | - | - | - | L | C |
+| Verde Bueno, Joaquín Francisco | JoaquinVerde115 | C | C | L | - | C | C | C |
+| Marín Cueva, César Fernando | Cmarin2802 | - | C | - | C | C | L | L |
 | Torrejón De Los Santos, Gino Rodrigo | R0obxdnt-bit | L | C | C | - | - | - | C |
-| Rojas Mancilla, Gerard Gianpier | GerardRojasMancilla | - | - | C | C | L | C | L |
+| Rojas Mancilla, Gerard Gianpier | GerardRojasMancilla | - | - | C | C | L | C | C |
 
 La matriz refleja que el avance del sprint no se distribuyó por tareas aisladas, sino por módulos del dominio. `Catalog Management` concentra el catálogo de productos refrigerados, `Sales` soporta solicitudes y órdenes B2B, `Warehouse` cubre disponibilidad e inventario, `IAM` permite la base de autenticación, `Invoicing` prepara la trazabilidad documental y de pagos, `Logistics` organiza el soporte para despacho, y `Shared Kernel` agrupa elementos comunes requeridos por los bounded contexts.
 
