@@ -117,7 +117,7 @@ Figura. GitHub Insights complementario de `nexa-platform` para AV2: 5 autores, 1
 
 Figura. GitHub Insights complementario de `nexa-webapp` para AV2: 5 autores, 177 commits, 15 releases y release `v2.0.0`. Elaboración propia.
 
-> *Nota:* Estas evidencias complementan los commits e insights del repositorio `nexa-ecosystem-report`; no reemplazan la evidencia principal del informe ni los pendientes controlados de coordinación Sprint 3 / AV2 y revisión de evidencias AV2.
+> *Nota:* Estas evidencias complementan los commits e insights del repositorio `nexa-ecosystem-report`.
 
 ### Evidencias de commits por repositorio
 
