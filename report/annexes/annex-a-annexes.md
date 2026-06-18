@@ -1,6 +1,6 @@
 # Annex A: Annexes Index
 
-Los anexos del reporte Nexa AV2 se separan en archivos Markdown independientes para facilitar el mantenimiento Docs-as-Code, reducir el tamaño de cada sección y conservar trazabilidad entre evidencias, repositorios, despliegues, validación y pendientes controlados.
+Los anexos del reporte Nexa AV2 se separan en archivos Markdown independientes para facilitar el mantenimiento Docs-as-Code, reducir el tamaño de cada sección y conservar trazabilidad entre evidencias, repositorios, despliegues, validación y.
 
 Esta reorganización no agrega evidencias nuevas ni cambia el sentido de las evidencias existentes. Las rutas de imágenes se mantienen relativas a `report/annexes/`, por lo que las referencias `../assets/...` continúan funcionando dentro de los anexos separados.
 
