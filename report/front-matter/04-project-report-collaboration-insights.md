@@ -9,7 +9,7 @@ El trabajo del equipo se organizó en una organización pública de GitHub, sepa
 
 | Recurso | URL | Propósito |
 |---|---|---|
-| Organización GitHub del equipo KING | **https://github.com/upc-pre-202610-1asi0730-12242-king:** [https://github.com/upc-pre-202610-1asi0730-12242-king](https://github.com/upc-pre-202610-1asi0730-12242-king) | Agrupar los repositorios oficiales del proyecto Nexa. |
+| Organización GitHub del equipo KING |  [https://github.com/upc-pre-202610-1asi0730-12242-king](https://github.com/upc-pre-202610-1asi0730-12242-king) | Agrupar los repositorios oficiales del proyecto Nexa. |
 | Repositorio del Project Report | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report:** [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report) | Mantener el informe académico en formato Markdown bajo enfoque Docs-as-Code. |
 | Repositorio de la Landing Page | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website:** [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website) | Contener el sitio público de Nexa y sus evidencias asociadas. |
 | Repositorio de la Web Application | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp:** [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp) | Contener la aplicación web frontend desarrollada para los flujos principales del producto. |
