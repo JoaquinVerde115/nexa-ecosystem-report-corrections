@@ -10,14 +10,12 @@ Como respaldo de la fase de levantamiento de requisitos e investigación de camp
 
 ## C.2. Validation Interviews AV2
 
-| Evidencia | Características | Sobre el contenido | Estado |
+| Evidencia | Enlace de Evidencia | Sobre el contenido | Estado |
 |---|---|---|---|
-| Validation Interviews AV2 | Archivo audiovisual en formato `.mp4`, asociado a entrevistas de validación con usuarios. | Presenta validaciones, hallazgos y reacciones de usuarios frente al producto o prototipo, incluyendo tareas realizadas y observaciones principales. | No ejecutado en este corte AV2; pendiente de validación con usuarios. |
-
-La sección 5.3 conserva el diseño de entrevistas, el registro de entrevistas y la matriz de evaluaciones según heurísticas preparados para una validación posterior. No se registran entrevistados, hallazgos, severidades ni recomendaciones sin evidencia real.
+| Validation Interviews AV2 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQCl_8cJxwFxQJ2j-SPApYDZAZWDTrZYgNXN_r3o5jYW9bE?e=TLhRWn | Presenta validaciones, hallazgos y reacciones de usuarios frente al producto o prototipo, incluyendo tareas realizadas y observaciones principales. | Realizado |
 
 ## C.3. Evaluaciones heurísticas
 
 | Evidencia | Referencia | Estado |
 |---|---|---|
-| Evaluaciones heurísticas AV2 | Sección 5.3, matriz de evaluación según heurísticas de usabilidad. | Pendiente de validación real |
+| Evaluaciones heurísticas AV2 | <a href="../50-chapter-5-implementation-validation-deployment/5-3-validation-interviews.md">5.3. Validation Interviews</a> | Validado|
