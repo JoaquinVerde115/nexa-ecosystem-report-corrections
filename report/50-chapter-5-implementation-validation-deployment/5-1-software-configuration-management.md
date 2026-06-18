@@ -104,7 +104,6 @@ Ejemplos de tipos utilizados:
 - Las imágenes se referencian mediante rutas relativas dentro de `assets/images`.
 - Las tablas de evidencia de commits mantienen la estructura solicitada: `Repository`, `Branch`, `Commit Id`, `Commit Message`, `Commit Message Body` y `Commited on (Date)`.
 - Las evidencias de sprint se documentan separando planificación, backlog, desarrollo, ejecución, servicios, despliegue y colaboración.
-- Las secciones que dependen de evidencias no técnicas se mantienen como pendientes controlados hasta contar con entrevistas, videos o registros de coordinación.
 
 **Convenciones frontend**
 
