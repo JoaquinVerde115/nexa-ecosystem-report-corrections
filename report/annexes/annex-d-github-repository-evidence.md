@@ -70,6 +70,17 @@ Este anexo respalda las secciones de colaboración del informe. A continuación,
 
 > *Nota:* Figura. Exposición del equipo KING para la sustentación TB1. Elaboración propia.
 
-### Sprint 3
 
-Las evidencias de coordinación Sprint 3 / AV2 y revisión de evidencias AV2 quedan centralizadas en Annex F para evitar duplicidad documental.
+#### Sprint 3
+
+![Evidencia de coordinación grupal Sprint 3](../assets/images/front-matter/collaboration/sprint-3-collaboration-meeting.jpeg)
+
+Figura. Trabajo colaborativo del equipo KING durante el Sprint 3. Elaboración propia.
+
+![Colaboración del equipo durante Sprint 3](../assets/images/front-matter/collaboration/team-collaboration-meeting-3.jpeg)
+
+Figura. Trabajo colaborativo del equipo KING durante el Sprint 3. Elaboración propia.
+
+![Práctica de exposición AV2](../assets/images/front-matter/collaboration/sprint-3-expo-av2.png)
+
+Figura. Práctica de exposición y preparación de la sustentación AV2 del equipo KING. Elaboración propia.
