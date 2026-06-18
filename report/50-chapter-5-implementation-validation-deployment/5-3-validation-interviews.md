@@ -133,15 +133,19 @@ Esta tabla funciona como marco de observación para el entrevistador. Durante la
 9. ¿El portal sería rápido de usar para un comprador frecuente y comprensible para alguien nuevo?
 10. ¿Qué ayuda, explicación o información adicional necesitarías para usar el portal con confianza?
 
-**Evidencia esperada.** Registro de sesión, notas de observación, respuestas del participante, captura autorizada del recorrido revisado, screenshot del video si aplica, URL de Microsoft Stream cuando exista y anexo de respaldo cuando esté disponible.
+*Evidencia de entrevista: Alonso Alcántara*
+
+![Alonso](../assets/images/chapter-5/interviews/alonso-alcantara.png)
+
+> *Nota:* Captura de sesión de entrevista. Elaboración propia.
 
 ### 5.3.2. Registro de Entrevistas
 
 La siguiente tabla queda preparada para registrar entrevistas reales. La información se completará únicamente cuando existan participantes, evidencia audiovisual y autorización de uso dentro del reporte.
 
-| Código | Nombres y apellidos | Edad | Distrito | Segmento | Screenshot del video | URL Microsoft Stream | Timing de inicio | Duración | Resumen descriptivo | Estado |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| VI-S3-01 | Por registrar | Por registrar | Por registrar | S3 | Por registrar | Por registrar | Por registrar | Por registrar | Por registrar | Pendiente |
+| Código | Nombres y apellidos     | Edad | Distrito   | Segmento | Screenshot del video | URL Microsoft Stream | Timing de inicio | Duración | Resumen descriptivo                                                             |
+| --- |-------------------------|------|------------| --- | --- | --- |------------------|----------|---------------------------------------------------------------------------------|
+| VI-S3-01 | Alonso Alcántara Cerdán | 19   | San Isidro | S3 | ![Alonso](../assets/images/chapter-5/interviews/alonso-alcantara.png)| https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQCl_8cJxwFxQJ2j-SPApYDZAZWDTrZYgNXN_r3o5jYW9bE?e=TLhRWn | 0:00             | 3:43     | Se mostró la aplicación a un hijo de un importador en el distrito de San Isidro |
 
 ### 5.3.3. Evaluaciones según heurísticas
 
