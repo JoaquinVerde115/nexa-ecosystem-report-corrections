@@ -57,8 +57,6 @@ Esta tabla funciona como marco de observación para el entrevistador. Durante la
 9. ¿La información visible ayuda a reducir llamadas, correos o explicaciones adicionales?
 10. ¿Necesitarías una explicación adicional para entender cómo una solicitud comercial pasa luego a validación u orden?
 
-**Evidencia esperada.** Registro de sesión, notas de observación, respuestas del participante, captura autorizada del recorrido revisado, screenshot del video si aplica, URL de Microsoft Stream cuando exista y anexo de respaldo cuando esté disponible.
-
 #### Diseño de entrevista S2: Operations / Account Owner
 
 **Objetivo de la sesión.** Evaluar si el usuario operativo comprende cómo Nexa apoya la coordinación de disponibilidad, reserva, despacho y trazabilidad de una orden.
@@ -95,8 +93,6 @@ Esta tabla funciona como marco de observación para el entrevistador. Durante la
 8. ¿La pantalla se siente ordenada o hay demasiada información al mismo tiempo?
 9. Si aparece un problema, como stock bajo, vencimiento cercano o una incidencia de despacho, ¿queda claro qué deberías hacer?
 10. ¿Necesitarías una guía, glosario o explicación adicional para usar esta parte del sistema con confianza?
-
-**Evidencia esperada.** Registro de sesión, notas de observación, respuestas del participante, captura autorizada del recorrido revisado, screenshot del video si aplica, URL de Microsoft Stream cuando exista y anexo de respaldo cuando esté disponible.
 
 #### Diseño de entrevista S3: B2B Buyer Portal
 
