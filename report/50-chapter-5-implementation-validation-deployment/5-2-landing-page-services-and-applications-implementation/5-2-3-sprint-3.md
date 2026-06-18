@@ -55,7 +55,7 @@ La imagen presenta el backlog del Sprint 3 registrado en Jira. Su función dentr
 
 > *Nota.* La captura evidencia la planificación actualizada del Sprint 3, con actividades visibles, estimación total del sprint, responsables, estados y work-items orientados al cierre AV2 de WebApp, Web Services, Swagger/OpenAPI, PostgreSQL y release. Elaboración propia.
 
-**URL del board/backlog:** [Jira Backlog — Proyecto Nexa](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
+**URL del board/backlog:** [https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
 
 La siguiente tabla presenta todas las historias y tareas registradas en Jira para el Sprint 3. Los identificadores, responsables y estimaciones se mantienen como trazabilidad documental del cierre AV2.
 
