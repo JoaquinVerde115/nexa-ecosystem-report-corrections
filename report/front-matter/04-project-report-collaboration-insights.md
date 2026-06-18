@@ -2,8 +2,7 @@
 
 Esta sección documenta la colaboración del equipo **KING** en la elaboración y evolución del informe académico de **Nexa**. De acuerdo con el enfoque Docs-as-Code solicitado para el curso, el reporte se mantiene en GitHub y evoluciona mediante commits, revisión cruzada, integración de capítulos y actualización progresiva de evidencias.
 
-La colaboración se describe de forma acumulativa por entrega: Sprint 1 / AV1, Sprint 2 / TB1 y Sprint 3 / AV2. Las evidencias disponibles se organizan por entrega. Las evidencias no técnicas que aún dependen de registro real se mantienen como pendientes controlados para evitar declarar cierre completo sin sustento verificable.
-
+La colaboración se describe de forma acumulativa por entrega: Sprint 1 / AV1, Sprint 2 / TB1 y Sprint 3 / AV2. Las evidencias disponibles se organizan por entrega.
 ### Organización en GitHub
 
 El trabajo del equipo se organizó en una organización pública de GitHub, separando el repositorio del informe académico de los repositorios de implementación. Esta separación permite distinguir la evolución documental del Project Report frente a la evolución técnica de la Landing Page, la Web Application y los Web Services.
