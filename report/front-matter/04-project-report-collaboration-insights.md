@@ -67,7 +67,7 @@ Los repositorios `nexa-website`, `nexa-platform` y `nexa-webapp` se mantienen co
 
 ### Despliegues AV2
 
-Para AV2, `nexa-webapp` se registra como Web Application desplegada en Render mediante **https://nexa-webapp.onrender.com:** [https://nexa-webapp.onrender.com](https://nexa-webapp.onrender.com). Asimismo, `nexa-platform` registra una Platform API desplegada en Render mediante **https://nexa-platform-api.onrender.com:** [https://nexa-platform-api.onrender.com](https://nexa-platform-api.onrender.com). En el backend, la auditoría final evidencia una evolución de la configuración de persistencia hacia PostgreSQL con el objetivo de soportar el despliegue controlado en Render.
+Para AV2, `nexa-webapp` se registra como Web Application desplegada en Render mediante  [https://nexa-webapp.onrender.com](https://nexa-webapp.onrender.com). Asimismo, `nexa-platform` registra una Platform API desplegada en Render mediante  [https://nexa-platform-api.onrender.com](https://nexa-platform-api.onrender.com). En el backend, la auditoría final evidencia una evolución de la configuración de persistencia hacia PostgreSQL con el objetivo de soportar el despliegue controlado en Render.
 
 Esta migración se documenta como parte del corte académico AV2 y no implica declarar operación productiva ni validación cerrada con usuarios. La evidencia visual específica de Render, Swagger y releases ya se encuentra incorporada en Sprint 3 y anexos.
 
