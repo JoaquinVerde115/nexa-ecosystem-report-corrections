@@ -2,7 +2,7 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12242-king/nexa-website/main/docs/assets/nexa-logo.svg" alt="Nexa Logo" width="160"/>
+<img src="https://github.com/JoaquinVerde115/nexa-ecosystem-report-corrections/blob/a947a5d0a7b9b090279673816a764b2aa0dec0e2/report/assets/images/front-matter/cover/Screenshot%202026-04-19%20174444.png" alt="Nexa Logo" width="1600"/>
 <h2>Nexa B2B Cold-Chain Logistics Platform</h2>
 <p><strong>Real-Time Visibility, Cold-Storage Traceability, Routing & B2B Billing</strong></p>
 
