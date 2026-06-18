@@ -31,7 +31,7 @@ El trabajo del equipo se organizó en una organización pública de GitHub, sepa
 
 ### Evidencia principal del Project Report
 
-El repositorio principal del informe es **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report:** [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report). Para el cierre AV2, `nexa-ecosystem-report v3.0.0` consolida la versión documental del reporte académico. Los commits recientes evidencian la preparación del informe, ajustes de formato académico, version history, anexos, validación documental, evidencias de Sprint 3 y preparación del PDF. Las branches `main` y `develop` evidencian el flujo GitFlow documental, mientras que los insights muestran actividad colaborativa del equipo en el repositorio del informe.
+El repositorio principal del informe es [https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report). Para el cierre AV2, `nexa-ecosystem-report v3.0.0` consolida la versión documental del reporte académico. Los commits recientes evidencian la preparación del informe, ajustes de formato académico, version history, anexos, validación documental, evidencias de Sprint 3 y preparación del PDF. Las branches `main` y `develop` evidencian el flujo GitFlow documental, mientras que los insights muestran actividad colaborativa del equipo en el repositorio del informe.
 
 ![GitHub Release nexa-ecosystem-report v3.0.0](../assets/images/front-matter/collaboration/report-releases/nexa-ecosystem-report-v3-0-0-release.png)
 
