@@ -458,7 +458,7 @@ La imagen presenta el servicio PostgreSQL configurado en Render. Esta evidencia 
 
 > *Nota.* La captura muestra el servicio PostgreSQL en Render asociado al despliegue académico AV2. Elaboración propia.
 
-** Landing Page desplegada en GitHub Pages.**
+**Landing Page desplegada en GitHub Pages.**
 
 La imagen evidencia el despliegue de la Landing Page mediante GitHub Pages. Esta captura respalda la nueva versión de `nexa-website` disponible para revisión AV2 y su continuidad con la experiencia de Web Application.
 
