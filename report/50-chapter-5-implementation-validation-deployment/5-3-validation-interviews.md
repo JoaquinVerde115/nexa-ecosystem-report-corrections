@@ -141,8 +141,6 @@ La siguiente tabla queda preparada para registrar entrevistas reales. La informa
 
 | Código | Nombres y apellidos | Edad | Distrito | Segmento | Screenshot del video | URL Microsoft Stream | Timing de inicio | Duración | Resumen descriptivo | Estado |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| VI-S1-01 | Por registrar | Por registrar | Por registrar | S1 | Por registrar | Por registrar | Por registrar | Por registrar | Por registrar | Pendiente |
-| VI-S2-01 | Por registrar | Por registrar | Por registrar | S2 | Por registrar | Por registrar | Por registrar | Por registrar | Por registrar | Pendiente |
 | VI-S3-01 | Por registrar | Por registrar | Por registrar | S3 | Por registrar | Por registrar | Por registrar | Por registrar | Por registrar | Pendiente |
 
 ### 5.3.3. Evaluaciones según heurísticas
