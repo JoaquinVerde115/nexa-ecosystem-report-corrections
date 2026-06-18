@@ -253,6 +253,11 @@ Figura. Práctica de exposición del equipo KING para la sustentación TB1. Elab
 
 #### Sprint 3 / AV2
 
-La evidencia de coordinación Sprint 3 / AV2 se mantiene como pendiente controlado hasta contar con el registro real de la sesión final de coordinación y revisión de entrega. Ruta prevista: `report/assets/images/front-matter/collaboration/sprint-3-coordination-evidence.png`.
+![Evidencia de coordinación grupal Sprint 3](../assets/images/front-matter/collaboration/sprint-3-collaboration-meeting.jpeg)
 
-La evidencia de revisión de evidencias AV2 se mantiene como pendiente controlado hasta contar con el registro real de validación del reporte, assets, videos y releases. Ruta prevista: `report/assets/images/front-matter/collaboration/av2-evidence-review.png`.
+Figura. Trabajo colaborativo del equipo KING durante el Sprint 3. Elaboración propia.
+
+![Colaboración del equipo durante Sprint 3](../assets/images/front-matter/collaboration/team-collaboration-meeting-3.jpeg)
+
+Figura. Trabajo colaborativo del equipo KING durante el Sprint 3. Elaboración propia.
+
